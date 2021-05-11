@@ -20,25 +20,158 @@ export const layer = [
   // Land Use and Land Cover Start
   {
     id: 3,
-    text: "LULC (2005-06)",
+    text: "Year(2000)",
     show: false,
-    class: "Land Use/Land Cover",
-    layer: "analytic:ner_landuse_landcover_50k_1st_cycle"
+    class: "Malaria",
+    layer: "Malaria: Year 2000",
+    link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
     id: 4,
-    text: "LULC(2011-12)",
+    text: "Year(2001)",
     show: false,
-    class: "Land Use/Land Cover",
-    layer: "analytic:lulc2ndcycle"
+    class: "Malaria",
+    layer: "Malaria:Year 2001",
+    link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
     id: 5,
-    text: "LULC(2015-16)",
+    text: "Year(2002)",
     show: false,
-    class: "Land Use/Land Cover",
-    layer: "analytic:lulc3rdcycle"
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
   },
+  {
+    id: 6,
+    text: "Year(2003)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+  },
+  {
+    id: 7,
+    text: "Year(2004)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+  },
+  {
+    id: 8,
+    text: "Year(2005)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+  },
+  {
+    id: 9,
+    text: "Year(2007)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+  },
+  {
+    id: 10,
+    text: "Year(2008)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+  },
+  {
+    id: 11,
+    text: "Year(2009)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+  },
+  {
+    id: 12,
+    text: "Year(2010)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+  },
+  {
+    id: 13,
+    text: "Year(2011)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+  },
+  {
+    id: 14,
+    text: "Year(2012)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+  },
+  {
+    id: 15,
+    text: "Year(2013)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+  },
+  {
+    id: 16,
+    text: "Year(2014)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+  },
+  {
+    id: 17,
+    text: "Year(2015)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+
+  },
+  {
+    id: 18,
+    text: "Year(2016)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+  },
+  {
+    id: 19,
+    text: "Year(2017)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+  },
+  {
+    id: 20,
+    text: "Year(2018)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+  },
+  {
+    id: 21,
+    text: "Year(2019)",
+    show: false,
+    class: "Malaria",
+    layer: "Malaria:Year",
+    link: "http://localhost:8080/geoserver/malria/wms/"
+  },
+
   // Land Use and Land Cover end
 
   // Census strat
@@ -76,7 +209,8 @@ export const maps = [
     show: false,
     class: "Maps",
     layer: "india3",
-    link: "https://bhuvan-vec1.nrsc.gov.in/bhuvan/gwc/service/wms/",
+   // link: "https://bhuvan-vec1.nrsc.gov.in/bhuvan/gwc/service/wms/",
+    link: "http://localhost:8080/geoserver/malria/wms/",
     format: 'image/png',
     domain: " "
 

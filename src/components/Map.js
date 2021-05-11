@@ -85,8 +85,9 @@ class Map extends React.Component {
     }
     showActiveLayer(e) {
         if (this.props.tasks[e].show) {
-            this.layer = L.tileLayer.wms("https://apps.nesdr.gov.in:442/geoserver/wms", {
-                layers: this.props.tasks[e].layer,
+            //this.layer = L.tileLayer.wms("https://apps.nesdr.gov.in:442/geoserver/wms", {
+                this.layer = L.tileLayer.wms("https://localhost:8080/geoserver/malria/wms", {
+                layers: this.props.tasks[e].link,
                 format: "image/png",
                 transparent: true,
             })
