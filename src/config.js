@@ -39,7 +39,7 @@ export const layer = [
     text: "Year(2002)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2002",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
@@ -47,7 +47,7 @@ export const layer = [
     text: "Year(2003)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2003",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
@@ -55,7 +55,7 @@ export const layer = [
     text: "Year(2004)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2004",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
@@ -63,7 +63,7 @@ export const layer = [
     text: "Year(2005)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2005",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
@@ -71,7 +71,7 @@ export const layer = [
     text: "Year(2007)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2007",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
@@ -79,7 +79,7 @@ export const layer = [
     text: "Year(2008)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2008",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
@@ -87,7 +87,7 @@ export const layer = [
     text: "Year(2009)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2009",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
@@ -95,7 +95,7 @@ export const layer = [
     text: "Year(2010)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2010",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
@@ -103,7 +103,7 @@ export const layer = [
     text: "Year(2011)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2011",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
@@ -111,7 +111,7 @@ export const layer = [
     text: "Year(2012)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2012",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
@@ -119,7 +119,7 @@ export const layer = [
     text: "Year(2013)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2013",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
@@ -127,7 +127,7 @@ export const layer = [
     text: "Year(2014)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2014",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
@@ -135,7 +135,7 @@ export const layer = [
     text: "Year(2015)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2015",
     link: "http://localhost:8080/geoserver/malria/wms/"
 
   },
@@ -144,7 +144,7 @@ export const layer = [
     text: "Year(2016)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2016",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
@@ -152,7 +152,7 @@ export const layer = [
     text: "Year(2017)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2017",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
@@ -160,7 +160,7 @@ export const layer = [
     text: "Year(2018)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2018",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
   {
@@ -168,7 +168,7 @@ export const layer = [
     text: "Year(2019)",
     show: false,
     class: "Malaria",
-    layer: "Malaria:Year",
+    layer: "Malaria:Year 2019",
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
 
