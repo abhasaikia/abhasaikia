@@ -17,7 +17,7 @@ export const layer = [
   },
   // Administrator boundary end
 
-  // Land Use and Land Cover Start
+  // Year wise Layer Start
   {
     id: 3,
     text: "Year(2000)",
@@ -172,7 +172,7 @@ export const layer = [
     link: "http://localhost:8080/geoserver/malria/wms/"
   },
 
-  // Land Use and Land Cover end
+  // Year wise Layer end
 
   // Census strat
   {

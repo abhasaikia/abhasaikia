@@ -165,7 +165,7 @@ const SideBarWrapper = ({ tasks, analyticsLayers, activateLayer, activateLayer1,
                 <LayerTree
                     tasks={tasks}
                     changeLayer={activateLayer}
-                    category="Malaria"                                       //changed to malaria//
+                    category="Malaria"                                       //Malaria category//
                 />
                 <LayerTree
                     tasks={tasks}
