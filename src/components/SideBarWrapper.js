@@ -49,66 +49,12 @@ const SideBarWrapper = ({ tasks, analyticsLayers, activateLayer, activateLayer1,
 
     // ******************************** fatch date data from database Start*******************************
 
-    // declare list of array *PS: array used in select in list 
-    var arrays = {
-        ndvidates: [],
-        soil_moisture_dates: [],
-        et_dates: []
-    };
+    
 
-    //main function *API Key Required
-    function getdates(name, value) {
-        const formData = new FormData();
-        formData.append('database', name);
-        fetch(
-            'https://mobileapp.nesdr.gov.in/analytics_api/modis_ndvi.php?key=mgy1exz0n8mXQXi8NrOq24DDvmLrZ16a',
-            {
-                method: 'POST',
-                body: formData,
-            }
-        )
-            .then((response) => response.json())
-            .then((result) => {
-                //console.log('Success:', result);
-                let datafromapi = result.map(data => {
-                    arrays[value].push({
-                        value: data.date,
-                        label: data.date,
-                        rating: data.date
-                    })
-                })
-            })
-            .catch((error) => {
-                console.error('Error:', error);
-            });
-    }
-
-    setTimeout(
-        function () {
-            console.log(arrays.ndvidates[0].value)
-        }
-            .bind(this),
-        2000
-    );
-    // get date function *PS: put database name and array name used in select list 
-    getdates('modis_ndvi', 'ndvidates')
-    getdates('soil_date', 'soil_moisture_dates')
-    getdates('et', 'et_dates')
 
     // ******************************** fatch date data from database End here*******************************
 
-    //handle input change
 
-    const handleInputChange = (newValue) => {
-        if (newValue) {
-            const inputValue = newValue.replace(/\W/g, '');
-            console.log(newValue)
-            alert('HI')
-        }
-        else {
-            console.log('Empty')
-        }
-    };
 
 
 
@@ -124,6 +70,21 @@ const SideBarWrapper = ({ tasks, analyticsLayers, activateLayer, activateLayer1,
             {/* *************Layer Tab start*************** */}
             <div className={type === 'Layer' ? 'LayerContainer' : 'hidden'}>
                 {/* List of map layers */}
+                <Paper square>
+                    <Tabs
+                        value={value}
+                        indicatorColor="primary"
+                        textColor="primary"
+                        onChange={handleChange}
+                        aria-label="disabled tabs example"
+                    >
+                        <Tab label="Base Layers" />
+                        <Tab label="Overlays" />
+
+                    </Tabs>
+
+                </Paper>
+                <div className={value === 0 ? ' ' : 'hidden'}>
                 <ul>
                     <li key={2} onClick={() => ChangeMap('Cartodb')} >< MapIcon />
                         <span> Cartodb</span>
@@ -156,7 +117,8 @@ const SideBarWrapper = ({ tasks, analyticsLayers, activateLayer, activateLayer1,
                     <hr>
                     </hr>
                 </ul>
-
+                </div>
+                <div className={value === 1 ? ' ' : 'hidden'}>
                 <LayerTree
                     tasks={tasks}
                     changeLayer={activateLayer}
@@ -172,228 +134,22 @@ const SideBarWrapper = ({ tasks, analyticsLayers, activateLayer, activateLayer1,
                     changeLayer={activateLayer}
                     category="Census"
                 />
-
+                <AnalyticsLayers
+                    tasks={analyticsLayers}
+                    changeLayer1={activateLayer1}
+                    category="Malaria"
+                    />
+                </div>
             </div>
             {/* *************Layer Tab end*************** */}
 
 
             {/* *************Vegetation Tab start*************** */}
-            <div className={type === 'Vegetation' ? 'LayerContainer' : 'hidden'}>
-                {/* Tab View */}
-                <Paper square>
-                    <Tabs
-                        value={value}
-                        indicatorColor="primary"
-                        textColor="primary"
-                        onChange={handleChange}
-                        aria-label="disabled tabs example"
-                    >
-                        <Tab label="Visualization" />
-                        <Tab label="Analysis" />
-
-                    </Tabs>
-
-                </Paper>
-                {/* Tab1 Data */}
-                <div className={value === 0 ? ' ' : 'hidden'}>
-                    <Accordion>
-                        <AccordionSummary
-                            expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel1a-content"
-                            id="panel1a-header"
-                        >
-                            <Typography className={classes.heading}>MODIS NDVI</Typography>
-                        </AccordionSummary>
-                        <AccordionDetails>
-
-                            <Select className="css-e56m7-control"
-                                defaultValue="Select"
-                                label="Single select"
-                                options={arrays.ndvidates}
-                                onChange={handleChange}
-                                theme={theme => ({
-                                    ...theme,
-
-                                    borderRadius: 1,
-
-                                })}
-                            />
-
-                        </AccordionDetails>
-                    </Accordion>
-                    <Accordion>
-                        <AccordionSummary
-                            expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel2a-content"
-                            id="panel2a-header"
-                        >
-                            <Typography className={classes.heading}>SOIL MOISTURE (SMAP)</Typography>
-                        </AccordionSummary>
-                        <AccordionDetails>
-                            <Select className="css-e56m7-control"
-                                defaultValue={arrays.soil_moisture_dates[2]}
-                                label="Single select"
-                                options={arrays.soil_moisture_dates}
-                                theme={theme => ({
-                                    ...theme,
-
-                                    borderRadius: 1,
-
-                                })}
-                            />
-                        </AccordionDetails>
-                    </Accordion>
-                    <Accordion>
-                        <AccordionSummary
-                            expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel3a-content"
-                            id="panel3a-header"
-                        >
-                            <Typography className={classes.heading}>Evapotranspiration</Typography>
-                        </AccordionSummary>
-                        <AccordionDetails>
-                            <Select className="css-e56m7-control"
-                                defaultValue={arrays.et_dates[2]}
-                                label="Single select"
-                                options={arrays.et_dates}
-                                theme={theme => ({
-                                    ...theme,
-
-                                    borderRadius: 1,
-
-                                })}
-                            />
-                        </AccordionDetails>
-                    </Accordion>
-                    <Accordion>
-                        <AccordionSummary
-                            expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel3a-content"
-                            id="panel3a-header"
-                        >
-                            <Typography className={classes.heading}>Tree cover</Typography>
-                        </AccordionSummary>
-                        <AccordionDetails>
-                            <Select className="css-e56m7-control"
-                                defaultValue={arrays.ndvidates[2]}
-                                label="Single select"
-                                options={arrays.ndvidates}
-                                theme={theme => ({
-                                    ...theme,
-
-                                    borderRadius: 1,
-
-                                })}
-                            />
-                        </AccordionDetails>
-                    </Accordion>
-                    <Accordion>
-                        <AccordionSummary
-                            expandIcon={<ExpandMoreIcon />}
-                            aria-controls="panel2a-content"
-                            id="panel2a-header"
-                        >
-                            <Typography className={classes.heading}>Tree cover gain</Typography>
-                        </AccordionSummary>
-                        <AccordionDetails>
-                            <Select className="css-e56m7-control"
-                                defaultValue={arrays.ndvidates[2]}
-                                label="Single select"
-                                options={arrays.ndvidates}
-                                theme={theme => ({
-                                    ...theme,
-
-                                    borderRadius: 1,
-
-                                })}
-                            />
-                        </AccordionDetails>
-                    </Accordion>
-
-                </div>
-                {/* Tab2 Data */}
-                <div className={value === 1 ? ' ' : 'hidden'}>
-                    <LayerTree
-                        tasks={tasks}
-                        changeLayer={activateLayer}
-                        category="Two"
-                        state='test'
-                    />
-                    <LayerTree
-                        tasks={tasks}
-                        changeLayer={activateLayer}
-                        category="Natural Resource"
-                    />
-                </div>
-
-            </div>
-            {/* *************Vegetation Tab end*************** */}
-
-
-            {/* *************Weather Tab start*************** */}
-            <div className={type === 'Weather' ? 'LayerContainer' : 'hidden'}>
-                <LayerTree
-                    tasks={tasks}
-                    changeLayer={activateLayer}
-                    category="Admin"
-                    state='test'
-                />
-                <LayerTree
-                    tasks={tasks}
-                    changeLayer={activateLayer}
-                    category="Natural Resource"
-                />
-            </div>
-            {/* *************Weather Tab end*************** */}
-
-            {/* *************Water Resources Tab start*************** */}
-            <div className={type === 'Water_Resources' ? 'LayerContainer' : 'hidden'}>
-                <LayerTree
-                    tasks={tasks}
-                    changeLayer={activateLayer}
-                    category="Admin"
-                    state='test'
-                />
-                <LayerTree
-                    tasks={tasks}
-                    changeLayer={activateLayer}
-                    category="Natural Resource"
-                />
-            </div>
-            {/* *************Water Resources Tab end*************** */}
-
-            {/* *************Satellite Imagery Tab start*************** */}
-            <div className={type === 'Satellite_Imagery' ? 'LayerContainer' : 'hidden'}>
-                <LayerTree
-                    tasks={tasks}
-                    changeLayer={activateLayer}
-                    category="Admin"
-                    state='test'
-                />
-                <LayerTree
-                    tasks={tasks}
-                    changeLayer={activateLayer}
-                    category="Natural Resource"
-                />
-            </div>
-            {/* *************Satellite Imagery Tab end*************** */}
-
-            {/* *************Vedas Services Tab start*************** */}
-            <div className={type === 'Vedas_Services' ? 'LayerContainer' : 'hidden'}>
-                <LayerTree
-                    tasks={tasks}
-                    changeLayer={activateLayer}
-                    category="Admin"
-                    state='test'
-                />
-                <LayerTree
-                    tasks={tasks}
-                    changeLayer={activateLayer}
-                    category="Natural Resource"
-                />
-            </div>
-            {/* *************Vedas Services Tab start*************** */}
-        </div>
+            
+            
+            
+            
+                    </div>
 
 
 
