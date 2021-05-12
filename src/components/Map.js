@@ -108,7 +108,11 @@ class Map extends React.Component {
         if (this.analyticsLayer != null) {
             this.mainMap.removeLayer(this.analyticsLayer)
         }
-        this.analyticsLayer = L.tileLayer("https://vedas.sac.gov.in/InteractiveGeoService/tms_comp_diff/NDVI_MODIS/{z}/{x}/{-y}?tm_arr1=1616976000&tm_arr2=1585440000&opr=max&min_val=0&max_val=250&color_map_name=NDVI_DIFF")
+        this.analyticsLayer = L.tileLayer.wms(this.props.analyticsLayers[e].link,{
+            layers: this.props.analyticsLayers[e].layer,
+            format: "image/png",
+            transparent: true,
+        })
 
         this.mainMap.addLayer(this.analyticsLayer)
     }

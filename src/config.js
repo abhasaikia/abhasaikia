@@ -17,6 +17,141 @@ export const layer = [
   },
   // Administrator boundary end
 
+  
+  // Census strat
+  {
+    id: 6,
+    text: "Census",
+    show: false,
+    class: "Census",
+    layer: "analytic:ner_census"
+  },
+
+  // census end
+
+
+
+]
+
+// maps configuration
+export const maps = [
+
+  //maps start 
+  {
+    id: 'Cartodb',
+    text: "Cartodb",
+    show: false,
+    class: "Maps",
+    layer: "analytic:ner_boundary",
+    link: "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
+    format: 'image/png',
+    domain: " "
+  },
+  {
+    id: 'Bhuvan',
+    text: "Bhuvan",
+    show: false,
+    class: "Maps",
+    layer: "india3",
+   // link: "https://bhuvan-vec1.nrsc.gov.in/bhuvan/gwc/service/wms/",
+    link: "http://localhost:8080/geoserver/malria/wms/",
+    format: 'image/png',
+    domain: " "
+
+  }
+  ,
+  {
+    id: 'BhuvanSatellite',
+    text: "BhuvanSatellite",
+    show: false,
+    class: "Maps",
+    layer: "bhuvan_imagery2",
+    link: "https://bhuvan-ras2.nrsc.gov.in/tilecache/tilecache.py?",
+    format: 'png/jpeg',
+    domain: " "
+  }
+  ,
+  {
+    id: 'Open_Street',
+    text: "Open Street",
+    show: false,
+    class: "Maps",
+    layer: "bhuvan_imagery2",
+    link: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    format: 'png/jpeg',
+    domain: " "
+  }
+  ,
+  {
+    id: 'Google_Map',
+    text: "Google Map",
+    show: false,
+    class: "Maps",
+    layer: "analytic:ner_boundary",
+    link: "http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}",
+    format: 'image/png',
+    domain: "['mt0','mt1','mt2','mt3']"
+  }
+  ,
+  {
+    id: 'Google_Satellite',
+    text: "Google Satellite",
+    show: false,
+    class: "Maps",
+    layer: "analytic:ner_boundary",
+    link: "http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
+    format: 'image/png',
+    domain: ['mt0', 'mt1', 'mt2', 'mt3']
+  }
+  //maps end
+
+]
+
+// analytics layer
+export const analytics = [
+
+  {
+    id: 2,
+    text: "District Boundary",
+    show: false,
+    class: "Admin",
+    layer: "analytic:ner_boundary"
+  },
+  {
+    id: 3,
+    text: "Land Use",
+    show: false,
+    class: "Natural Resource",
+    layer: "analytic:ner_boundary"
+  },
+  {
+    id: 4,
+    text: "Wetlands",
+    show: false,
+    class: "Natural Resource",
+    layer: "analytic:ner_boundary"
+  },
+  {
+    id: 5,
+    text: "Agriculture",
+    show: false,
+    class: "Agri",
+    layer: "analytic:ner_boundary"
+  },
+  {
+    id: 6,
+    text: "Cropland",
+    show: false,
+    class: "Agri",
+    layer: "analytic:ner_boundary"
+  },
+  {
+    id: 7,
+    text: "Disaster",
+    show: false,
+    class: "Disaster",
+    layer: "analytic:ner_boundary"
+  },
   // Year wise Layer Start
   {
     id: 3,
@@ -174,140 +309,6 @@ export const layer = [
 
   // Year wise Layer end
 
-  // Census strat
-  {
-    id: 6,
-    text: "Census",
-    show: false,
-    class: "Census",
-    layer: "analytic:ner_census"
-  },
-
-  // census end
-
-
-
-]
-
-// maps configuration
-export const maps = [
-
-  //maps start 
-  {
-    id: 'Cartodb',
-    text: "Cartodb",
-    show: false,
-    class: "Maps",
-    layer: "analytic:ner_boundary",
-    link: "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png",
-    format: 'image/png',
-    domain: " "
-  },
-  {
-    id: 'Bhuvan',
-    text: "Bhuvan",
-    show: false,
-    class: "Maps",
-    layer: "india3",
-   // link: "https://bhuvan-vec1.nrsc.gov.in/bhuvan/gwc/service/wms/",
-    link: "http://localhost:8080/geoserver/malria/wms/",
-    format: 'image/png',
-    domain: " "
-
-  }
-  ,
-  {
-    id: 'BhuvanSatellite',
-    text: "BhuvanSatellite",
-    show: false,
-    class: "Maps",
-    layer: "bhuvan_imagery2",
-    link: "https://bhuvan-ras2.nrsc.gov.in/tilecache/tilecache.py?",
-    format: 'png/jpeg',
-    domain: " "
-  }
-  ,
-  {
-    id: 'Open_Street',
-    text: "Open Street",
-    show: false,
-    class: "Maps",
-    layer: "bhuvan_imagery2",
-    link: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-    format: 'png/jpeg',
-    domain: " "
-  }
-  ,
-  {
-    id: 'Google_Map',
-    text: "Google Map",
-    show: false,
-    class: "Maps",
-    layer: "analytic:ner_boundary",
-    link: "http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}",
-    format: 'image/png',
-    domain: "['mt0','mt1','mt2','mt3']"
-  }
-  ,
-  {
-    id: 'Google_Satellite',
-    text: "Google Satellite",
-    show: false,
-    class: "Maps",
-    layer: "analytic:ner_boundary",
-    link: "http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
-    format: 'image/png',
-    domain: ['mt0', 'mt1', 'mt2', 'mt3']
-  }
-  //maps end
-
-]
-
-// analytics layer
-export const analytics = [
-
-  {
-    id: 2,
-    text: "District Boundary",
-    show: false,
-    class: "Admin",
-    layer: "analytic:ner_boundary"
-  },
-  {
-    id: 3,
-    text: "Land Use",
-    show: false,
-    class: "Natural Resource",
-    layer: "analytic:ner_boundary"
-  },
-  {
-    id: 4,
-    text: "Wetlands",
-    show: false,
-    class: "Natural Resource",
-    layer: "analytic:ner_boundary"
-  },
-  {
-    id: 5,
-    text: "Agriculture",
-    show: false,
-    class: "Agri",
-    layer: "analytic:ner_boundary"
-  },
-  {
-    id: 6,
-    text: "Cropland",
-    show: false,
-    class: "Agri",
-    layer: "analytic:ner_boundary"
-  },
-  {
-    id: 7,
-    text: "Disaster",
-    show: false,
-    class: "Disaster",
-    layer: "analytic:ner_boundary"
-  }
 ]
 
 // side pannel visibility
