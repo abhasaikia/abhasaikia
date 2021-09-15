@@ -4,63 +4,97 @@ import HighchartsReact from 'highcharts-react-official';
 import { useState, useEffect} from "react";
 import { result } from 'lodash';
 // import  {render } from "react-dom";
-const Series = ({info, state}) => {
+const Series = ({info, state, featureInfo1}) => {
 
       const [options, setOptions] = useState({
       
         
     })
-
+    const [chartData, setChartData] = useState()
     const [featureInfo, setFeatureInfo] =useState()
-     const getInfo = async () => {
-      console.log(info)
-      try { 
-         setFeatureInfo({ data: [], isFetching: true });
-         console.log("data");
-        fetch(
-          info.link +
-            "?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&QUERY_LAYERS=" +
-            info.layer +
-            "&LAYERS=" +
-            info.layer +
-            "&INFO_FORMAT=application/json&FEATURE_COUNT=50&X=" +
-            state.point.x +
-            "&Y=" +
-            state.point.y +
-            "&WIDTH=" +
-            state.shape.x +
-            "&HEIGHT=" +
-            state.shape.y +
-            "&BBOX=" +
-            state.bounds,
-            //console.log(info),
-          {
-            method: "GET",
-          }
-        )
-          .then((response) => response.json())
-          .then((result) => {
-            console.log(result)
-            setFeatureInfo({ data: result.features[0].properties, isFetching: false });
-          })
-          .catch((error) => {
-            console.error("Error:", error);
-          });
-        //setFeatureInfo({ ...featureInfo, isFetching: true });
-      } catch (exception) {
-        //console.log(exception);
-          //setFeatureInfo({ featureInfo: featureInfo.data, isFetching: false });
-      }
-    };
-     
+    //  const getInfo = async () => {
+    //   console.log(info)
+    //   try { 
+    //      setFeatureInfo({ data: [], isFetching: true });
+    //      console.log("data");
+    //     fetch(
+    //       info.link +
+    //         "?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&QUERY_LAYERS=" +
+    //         info.layer +
+    //         "&LAYERS=" +
+    //         info.layer +
+    //         "&INFO_FORMAT=application/json&FEATURE_COUNT=50&X=" +
+    //         state.point.x +
+    //         "&Y=" +
+    //         state.point.y +
+    //         "&WIDTH=" +
+    //         state.shape.x +
+    //         "&HEIGHT=" +
+    //         state.shape.y +
+    //         "&BBOX=" +
+    //         state.bounds,
+    //         //console.log(info),
+    //       {
+    //         method: "GET",
+    //       }
+    //     )
+    //       .then((response) => response.json())
+    //       .then((result) => {
+    //         console.log(result)
+    //         setFeatureInfo({ data: result.features[0].properties, isFetching: false });
+    //       })
+    //       .catch((error) => {
+    //         console.error("Error:", error);
+    //       });
+    //     //setFeatureInfo({ ...featureInfo, isFetching: true });
+    //   } catch (exception) {
+    //     //console.log(exception);
+    //       //setFeatureInfo({ featureInfo: featureInfo.data, isFetching: false });
+    //   }
+    // };
+    const getInfo = async (e) => {
+        console.log(e)
+    try {
+
+      setFeatureInfo({ data: [], isFetching: true }); 
+       console.log("data");
+         //fetch("http://localhost/php_react/Api/PV_1.php",
+         fetch("http://localhost/php_react/Api/trial3.php?name="+e,
+        //  fetch("http://localhost/php_react/Api/Test7.php",
+        //  console.log(info),
+        {
+          method: "GET",
+        }
+      )
+        .then((response) => response.json())
+        .then((result) => {
+         console.log(result)
+          //console.log(result['NE_19'][0].sum)     
+          setChartData(result[0].map((e)=>((Number(e)))))
+          setFeatureInfo({ data: result[0], isFetching: false });       
+          console.log(featureInfo)
+          //setFeatureInfo({ data: result['NE_19'][0].sum, isFetching: false });
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+        });
+      setFeatureInfo({ ...featureInfo, isFetching: true });
+    } catch (exception) {
+       //console.log(exception);                                               
+           //setFeatureInfo({ featureInfo: featureInfo.data, isFetching: false });    
+    }
+  };
   useEffect(( ) => {
      console.log(state )
-    getInfo() 
+    //  setChartData(featureInfo1.data.map((e)=>(Number(e))))
+    console.log(featureInfo1.data.district)
+    getInfo(featureInfo1.data.district) 
     console.log(options)
    //featureInfo.map((e)=>console.log(e))
     console.log(featureInfo)
     let pv = featureInfo!==undefined&&Object.keys(featureInfo.data).map((e)=>(featureInfo.data[e]))
     console.log(pv)
+  
     setOptions({
 
       title: {
@@ -86,24 +120,14 @@ const Series = ({info, state}) => {
               label: {
                   connectorAllowed: false
               },
-              pointStart: 2010
+              pointStart: 2000
           }
       },
      
      series : [{     
           name: 'PV1',
-          data: pv
-      }
-      ,{
-          name: 'PF1',
-          data: [24916, 24064, 29742, 29851, 32490, 30282, 38121, 40434]
-      }, {
-          name: 'Mixed1',
-          data: [11744, 17722, 16005, 19771, 20185, 24377, 32147, 39387]
-      }, {
-          name: 'Total1',
-          data: [null, null, 7988, 12169, 15112, 22452, 34400, 34227]
-      }
+          data: chartData
+     }
 ], 
       responsive: {
           rules: [{
