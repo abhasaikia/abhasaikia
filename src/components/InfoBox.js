@@ -18,36 +18,77 @@ const InfoBox = () => {
     isFetching: false,
   });
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  const getInfo = async () => {
-        console.log(info)
-    try {
+  // const getInfo = async () => {
+  //       console.log(info)
+  //   try {
 
-      setFeatureInfo({ data: [], isFetching: true }); 
+  //     setFeatureInfo({ data: [], isFetching: true }); 
+  //      console.log("data");
+  //        //fetch("http://localhost/php_react/Api/PV_1.php",
+  //        fetch("http://localhost/php_react/Api/trial3.php?name=Aizawl",
+  //       //  fetch("http://localhost/php_react/Api/Test7.php",
+  //        console.log(info),
+  //       {
+  //         method: "GET",
+  //       }
+  //     )
+  //       .then((response) => response.json())
+  //       .then((result) => {
+  //        console.log(result)
+  //         //console.log(result['NE_19'][0].sum)     
+  //         setFeatureInfo({ data: result[0], isFetching: false });       
+  //         console.log(featureInfo)
+  //         //setFeatureInfo({ data: result['NE_19'][0].sum, isFetching: false });
+  //       })
+  //       .catch((error) => {
+  //         console.error("Error:", error);
+  //       });
+  //     setFeatureInfo({ ...featureInfo, isFetching: true });
+  //   } catch (exception) {
+  //      //console.log(exception);                                               
+  //          //setFeatureInfo({ featureInfo: featureInfo.data, isFetching: false });    
+  //   }
+  // };
+
+
+  const getInfo = async () => {
+    console.log(info)
+    try { 
+       setFeatureInfo({ data: [], isFetching: true });
        console.log("data");
-         fetch("http://localhost/php_react/Api/PV_1.php",
-        //  fetch("http://localhost/php_react/Api/Test7.php",
-         console.log(info),
+      fetch(
+        info[info.length-1].link +
+          "?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&QUERY_LAYERS=" +
+          info[info.length-1].layer +
+          "&LAYERS=" +
+          info[info.length-1].layer +
+          "&INFO_FORMAT=application/json&FEATURE_COUNT=50&X=" +
+          state.point.x +
+          "&Y=" +
+          state.point.y +
+          "&WIDTH=" +
+          state.shape.x +
+          "&HEIGHT=" +
+          state.shape.y +
+          "&BBOX=" +
+          state.bounds,
+          //console.log(info),
         {
           method: "GET",
         }
       )
         .then((response) => response.json())
         .then((result) => {
-          // console.log(result)
-          //console.log(result['NE_19'][0].sum) 
-        
-          console.log(result['PV_sum'][0].sum);           
-          setFeatureInfo({ data: result['PV_sum'][0], isFetching: false });        
-          //setFeatureInfo({ data: result['NE_19'][0].sum, isFetching: false });
+          console.log(result)
+          setFeatureInfo({ data: result.features[0].properties, isFetching: false });
         })
         .catch((error) => {
           console.error("Error:", error);
         });
-      setFeatureInfo({ ...featureInfo, isFetching: true });
+      //setFeatureInfo({ ...featureInfo, isFetching: true });
     } catch (exception) {
       //console.log(exception);
-      //     setFeatureInfo({ featureInfo: featureInfo.data, isFetching: false });
+        //setFeatureInfo({ featureInfo: featureInfo.data, isFetching: false });
     }
   };
   useEffect(() => {
@@ -70,8 +111,7 @@ console.log(info),
           <div className="Total">PF Cases<p>{featureInfo.data.pf}</p></div>
           <div className="Total">Mixed Cases<p>{featureInfo.data.mixed}</p></div>
         </div>
-          {info !== undefined &&  <Series info={info[info.length-1]} state={state}/>            
-
+          {info !== undefined &&  <Series info={info[info.length-1]} state={state} featureInfo1 ={featureInfo}/>
           
           //   info.map((task, index) => (
           //   //  <Info key={index} info={task} state={state} />    
