@@ -11,6 +11,8 @@ const Series = ({info, state, featureInfo1}) => {
         
     })
     const [chartData, setChartData] = useState()
+    const [pfData, setPfData]=useState()
+    const[mixedData, setMixedData]= useState()
     const [featureInfo, setFeatureInfo] =useState()
     //  const getInfo = async () => {
     //   console.log(info)
@@ -53,11 +55,11 @@ const Series = ({info, state, featureInfo1}) => {
     //   }
     // };
     const getInfo = async (e) => {
-        console.log(e)
+        //console.log(e)
     try {
 
       setFeatureInfo({ data: [], isFetching: true }); 
-       console.log("data");
+       console.log("data:"+e);
          //fetch("http://localhost/php_react/Api/PV_1.php",
          fetch("http://localhost/php_react/Api/trial3.php?name="+e,
         //  fetch("http://localhost/php_react/Api/Test7.php",
@@ -70,7 +72,9 @@ const Series = ({info, state, featureInfo1}) => {
         .then((result) => {
          console.log(result)
           //console.log(result['NE_19'][0].sum)     
-          setChartData(result[0].map((e)=>((Number(e)))))
+          setChartData(result.pv.map((e)=>((Number(e)))))
+          setPfData(result.pf.map((e)=>((Number(e)))))
+          setMixedData(result.mixed.map((e)=>((Number(e)))))
           setFeatureInfo({ data: result[0], isFetching: false });       
           console.log(featureInfo)
           //setFeatureInfo({ data: result['NE_19'][0].sum, isFetching: false });
@@ -92,8 +96,8 @@ const Series = ({info, state, featureInfo1}) => {
     console.log(options)
    //featureInfo.map((e)=>console.log(e))
     console.log(featureInfo)
-    let pv = featureInfo!==undefined&&Object.keys(featureInfo.data).map((e)=>(featureInfo.data[e]))
-    console.log(pv)
+    // let pv = featureInfo!==undefined&&Object.keys(featureInfo.data).map((e)=>(featureInfo.data[e]))
+    // console.log(pv)
   
     setOptions({
 
@@ -127,7 +131,15 @@ const Series = ({info, state, featureInfo1}) => {
      series : [{     
           name: 'PV1',
           data: chartData
-     }
+     },
+     {     
+        name: 'PF',
+        data: pfData
+     },{     
+        name: 'Mixed',
+        data: mixedData
+     },
+
 ], 
       responsive: {
           rules: [{
