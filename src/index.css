@@ -11,6 +11,13 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+.sr-only {
+  display: none;
+}
 
 .infobox{
   width: 15%;
@@ -38,13 +45,14 @@ body {
 }
 
 .SidePanel{
-    border-right:1px solid #080808;
-    position: absolute;
-    width: 4.75rem;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    background-color: rgba(162, 162, 162, 0.9);
+  position: absolute;
+  width: 51px;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  
+  background: #171e26;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .SidePanel >ul>li {
@@ -52,16 +60,17 @@ body {
   flex-direction: column;
   align-items: center;
   list-style-type: none;
-  padding:  10px;
+  padding:  5px;
+  margin-top: 10px;
 }
 
 .SidePanel>ul>li>img{
   /* display: inline-block; */
   /* vertical-align: middle; */
   max-width: 100%;
-  padding:  10px;
-  height: auto;
-  background-color: rgb(13, 100, 141);
+  padding:  5px;
+  height: 40px;
+  background-color: rgba(103, 151, 190, 0.603);
 }
 
 .SidePanel>ul>li:nth-child(1){
@@ -69,7 +78,7 @@ body {
 }
 
 .SidePanel >ul>li:hover {
-  background-color: rgb(56, 56, 56);
+  background-color: #313a43;
   border: black;
   color: #fff;
 }
@@ -86,9 +95,10 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
+    font-size: 8px;
     font: -webkit-control;
     vertical-align: baseline;
+    color: #DADADA
 }
 
 .SidePanel >ul>li:hover>.MuiSvgIcon-root{
@@ -97,37 +107,43 @@ body {
 
 .SidePanel >ul>li>.MuiSvgIcon-root{
   border: #dad9e0;
+  color: #DADADA;
+
 }
 
 .task {
 display:none;  
 }
 .active{
-  cursor: pointer;
+  /* cursor: pointer; */
   border-bottom: 1px solid #ccc;
   background-color: #fff;
+  
 }
-
-.active table>tbody>tr>td{
+.activeAnalytics{
+  cursor: pointer;
+  background-color: #fff;
+  
+}
+/* .active table>tbody>tr>td{
   padding:0px;
   margin: 0px;
   text-align: right;
   
-}
+} */
 
-.active td>.MuiSvgIcon-root{
-  float: right;
-  color: gray;
-  /* margin-left: 150px; */
-}
+
 
 .LayerTree p{
-  background: #bbb8b8;
+  background: #3a3a3a;
   align-items: flex-end;
   width: 20rem;
   padding: 8px 10px;
   cursor: pointer;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid rgb(131, 130, 130);
+  font-size: 14px;
+  color: #fff;
+      font:"Helvetica Neue",Arial,Helvetica,sans-serif;
 }
 
 .LayerTree p>.MuiSvgIcon-root{
@@ -137,15 +153,16 @@ display:none;
 
 .LayerContainer{
   height: 100%;
-  margin-left: 4.75rem;
-  background-color: rgba(243, 241, 241, 0.87);
+  margin-left: 51px;
+  background-color: #212b35;
   border-right: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-
+  max-height: 100%;
+  /* overflow-y: auto; */
 
 }
-.LayerContainer > p{
-  background: #bbb8b8;
+.LayerContainer > p{ 
+  /* background: #bbb8b8; */
 
 }
 
@@ -166,8 +183,20 @@ width: 250px !important;
   margin: 1px 0 !important;
 }
 
+.MuiButtonBase-root.MuiAccordionSummary-root{
+  background-color: #bbb8b8;
+  border-bottom: 1px solid #080808;
+}
+.MuiButtonBase-root.MuiAccordionSummary-root{
+  max-height: 35px;
+  min-height: 30px;
+}
+.MuiButtonBase-root.MuiAccordionSummary-root.Mui-expanded {
+  min-height: 30px;
+  max-height: 35px;
+
+}
 
 
-
-
+/* for frame box */
 

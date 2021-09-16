@@ -1,138 +1,173 @@
-import React, { useState } from 'react'
-import L from 'leaflet';
-import { maps } from '../config'
-const style = {
+import {
+  MapContainer,
+  TileLayer,
+  WMSTileLayer,
+  useMapEvents,
+  useMap,
+} from "react-leaflet";
+ import { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { selectLayerDataSet } from "../features/layers/overlaylayerslice";
+import { selectBaseDataSet } from "../features/layers/baselayerslice";
+import { setMapState } from "../features/maps/mapStateSlice";
+import React from "react";
+import L, {  } from "leaflet";
+// import Draw from "leaflet-draw";
 
-    width: '100%',
-    bottom: '0px',
-    top: '0px',
-    left: '0px',
-    position: 'absolute',
-    margin: 0
+function HandleHover() {
+  const map = useMapEvents({
+    mousemove: (e) => {
+      //  console.log(e)
+    },
+  });
+  return null;
 }
 
-const osm = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-    maxZoom: 18,
-    id: 'mapbox/streets-v11',
-    tileSize: 512,
-    zoomOffset: -1
-});
-const mapParams = {
-    center: [25.95681, 91.7362],
-    zoomControl: false,
-    attributionControl: false,
-    zoom: 8,
-    layers: [osm]
+const Toolbar = () => {
+  console.log("Hell")
+  var drawControl = new L.Control.Draw({ position: "bottomright" });
+  const map = useMap();
+  map.addControl(drawControl);
+  return null;
+};
+
+let analyticslayer = null;
+
+function AddAnalytics({ test, showAnalytics }) {
+  let data = null;
+  // console.log(analyticslayer);
+  // console.log(showAnalytics);
+
+  const map = useMap();
+
+  if (analyticslayer != null) {
+    map.removeLayer(analyticslayer);
+  }
+  analyticslayer = L.tileLayer.wms(test[1], {
+    layers: test[0],
+    format: "image/png",
+    transparent: true,
+    zIndex: 100,
+  });
+  map.addLayer(analyticslayer);
+  if (!showAnalytics) {
+    map.removeLayer(analyticslayer);
+  }
+  return null;
 }
 
+const Map = ({ visibility }) => {
+  console.log(visibility)
+  const dispatch = useDispatch();
+  function HandleClick() {
+    const map = useMapEvents({
+      click: (e) => {
+        dispatch(
+          setMapState({
+            lat: e.latlng.lat,
+            lon: e.latlng.lng,
+            zoom: map.getZoom(),
+            overlays: overlayLayers.filter((overlay) => overlay.show === true),
+            bbox: map.getBounds().toBBoxString(),
+            shape: map.getSize(),
+            point: map.latLngToContainerPoint(e.latlng, map.getZoom()),
+          })
+        );
+        // console.log(map.getBounds().toBBoxString())
+        // console.log("point:"+map.latLngToContainerPoint(e.latlng, map.getZoom()))
+        // console.log("size:"+map.getSize())
+        // console.log(+ new Date()/1000)
+        // console.log(e);
+      },
+    });
+    return null;
+  }
+  const baseLayers = useSelector(selectBaseDataSet);
+  const overlayLayers = useSelector(selectLayerDataSet);
 
-class Map extends React.Component {
+  // useEffect(() => {
+  //   // AddAnalytics()
+  //   // const interval = setInterval(() => {
+  //   //   console.log('This will run every second!');
+  //   // }, 1000);
+  //   // console.log("Analyticcs Changed");
+  // }, [overlayLayers]);
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            activeLayers: [],
-            mapId: 'mainMap'
-        };
-        this.layer = null;
-        this.mainMap = null;
-        this.mapControls = null;
-        this.progress = null;
-        this.analyticsLayer = null
-        this.maplayer = null
+  useEffect(()=>{
 
+  },[])
+  return (
+    <MapContainer
+      //center={[26.2006, 92.5376]}
+      center={[21.902278,79.131032]}
+      zoom={5}
+      zoomControl={false}
+      attributionControl={false}
+    >
+      {baseLayers.map(
+        (baselayer, index) =>
+          baselayer.show &&
+          (baselayer.type === "tile" ? (
+            <TileLayer key={index} url={baselayer.link} zIndex="1" />
+          ) : (
+            <WMSTileLayer
+              key={index}
+              url={baselayer.link}
+              layers={baselayer.layer}
+              format="image/png"
+              zIndex="1"
+            />
+          ))
+      )}
+      {overlayLayers.map(
+        (overlayer, index) =>
+          overlayer.show &
+            ((overlayer.text !== "Flood Inundation") &
+              (overlayer.class !== "Lightning")) && (
+            <WMSTileLayer
+              key={index}
+              format="image/png"
+              layers={overlayer.layer}
+              url={overlayer.link}
+              transparent="true"
+              zIndex="10"
+            />
+          )
+      )}
 
+      {overlayLayers.map(
+        (overlayer, index) =>
+          overlayer.text === "Malaria" && (
+            <AddAnalytics
+              test={[overlayer.layer, overlayer.link]}
+              showAnalytics={overlayer.show}
+            />
+          )
+      )}
+      {overlayLayers.map(
+        (overlayer, index) =>
+          overlayer.show & (overlayer.class === "Lightning") && (
+            // <WMSTileLayer
+            //   key={index}
+            //   format="image/png"
+            //   layers={overlayer.layer}
+            //   url={overlayer.link}
+            //   transparent="true"
+            //   zIndex="10"
+            // />
 
-    }
+            <TileLayer
+              key={index}
+              url={overlayer.link + "&t=" + Math.floor(+new Date() / 1000)}
+              zIndex="10"
+            />
+          )
+      )}
+      {false&&<Toolbar />}
+      <HandleClick />
+      <HandleHover />
+    </MapContainer>
+  );
+};
 
-    componentDidMount() {
-        this.mainMap = L.map('map', mapParams)
-        this.mainMap.on('click', (e) => {
-            this.props.updateBox(e)
-            console.log("Test")
-        });
-
-    }
-    componentDidUpdate(prevProps, nextprops) {
-        for (var i = 0; i < this.props.tasks.length; i++) {
-            if (prevProps.tasks.length !== 0) {
-                if (prevProps.tasks[i].show !== this.props.tasks[i].show) {
-                    this.showActiveLayer(i)
-                }
-            }
-        }
-
-        for (i = 0; i < this.props.analyticsLayers.length; i++) {
-
-            if (prevProps.analyticsLayers !== this.props.analyticsLayers && this.props.analyticsLayers[i].show === true) {
-                this.showAnalyticsLayer(this.props.analyticsLayers[i])
-                // console.log(this.props.analyticsLayers[i])
-            }
-
-        }
-
-
-        for (i = 0; i < this.props.mapslayer.length; i++) {
-
-            if (prevProps.mapslayer !== this.props.mapslayer && this.props.mapslayer[i].show === true) {
-                this.showMapsLayer(this.props.mapslayer[i])
-                //console.log(this.props.analyticsLayers[i])
-            }
-
-        }
-
-
-    }
-    showActiveLayer(e) {
-        if (this.props.tasks[e].show) {
-                this.layer = L.tileLayer.wms("https://localhost:8080/geoserver/malria/wms", {
-                layers: this.props.tasks[e].link,
-                format: "image/png",
-                transparent: true,
-            })
-            this.mainMap.addLayer(this.layer)
-        }
-        else {
-            var keys_array = Object.keys(this.mainMap._layers).map(key => parseInt(key))
-            keys_array.map(d => {
-                if (this.props.tasks[e].layer === this.mainMap._layers[d].options.layers) {
-                    this.mainMap.removeLayer(this.mainMap._layers[d])
-                }
-            })
-        }
-    }
-
-    showAnalyticsLayer(e) {
-        console.log(e)
-        // if (this.props.tasks[e].show) {
-        if (this.analyticsLayer != null) {
-            this.mainMap.removeLayer(this.analyticsLayer)
-        }
-        this.analyticsLayer = L.tileLayer.wms(this.props.analyticsLayers[e].link,{
-            layers: this.props.analyticsLayers[e].layer,
-            format: "image/png",
-            transparent: true,
-        })
-
-        this.mainMap.addLayer(this.analyticsLayer)
-    }
-
-    //maps layer update
-    showMapsLayer(e) {
-        console.log(e.link)
-        if (this.maplayer != null) {
-            this.mainMap.removeLayer(this.maplayer)
-        }
-        this.maplayer = L.tileLayer.wms(e.link, {
-            layers: e.layer,
-            format: e.format,
-            zIndex: 1,
-            subdomains: e.domain
-        });
-        this.mainMap.addLayer(this.maplayer)
-    }
-    render() {
-        return <div id="map" className="mapStyle" style={style}></div>;
-    }
-}
-export default Map
+export default Map;

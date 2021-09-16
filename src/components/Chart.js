@@ -87,7 +87,8 @@ const Chart = () => {
           series: [{
               name: 'PV_2000',
               data: result['PV_00-19'].map((e)=>Number(e.PV_2000))
-         }, {
+         }, 
+         {
               name: 'PV_2001',
               data: result['PV_00-19'].map((e)=>Number(e.PV_2001))
           }, {
