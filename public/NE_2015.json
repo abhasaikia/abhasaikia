@@ -1,0 +1,858 @@
+[
+  
+ {
+   "District": "Barpeta",
+   "pv": 28,
+   "pf": 47,
+   "mixed": 0,
+   "total": 75,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Bongaigaon",
+   "pv": 16,
+   "pf": 44,
+   "mixed": 0,
+   "total": 60,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Baksa",
+   "pv": 371,
+   "pf": 512,
+   "mixed": 0,
+   "total": 883,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Cachar",
+   "pv": 28,
+   "pf": 139,
+   "mixed": 0,
+   "total": 167,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Chirang",
+   "pv": 206,
+   "pf": 979,
+   "mixed": 0,
+   "total": 1185,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Darrang",
+   "pv": 19,
+   "pf": 8,
+   "mixed": 0,
+   "total": 27,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Dhemaji",
+   "pv": 26,
+   "pf": 39,
+   "mixed": 0,
+   "total": 65,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Dhubri",
+   "pv": 33,
+   "pf": 57,
+   "mixed": 0,
+   "total": 90,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Dibrugarh",
+   "pv": 21,
+   "pf": 21,
+   "mixed": 0,
+   "total": 42,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Goalpara",
+   "pv": 414,
+   "pf": 318,
+   "mixed": 0,
+   "total": 732,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Golaghat",
+   "pv": 26,
+   "pf": 28,
+   "mixed": 0,
+   "total": 54,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Hailakandi",
+   "pv": 47,
+   "pf": 202,
+   "mixed": 0,
+   "total": 249,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Jorhat",
+   "pv": 17,
+   "pf": 25,
+   "mixed": 0,
+   "total": 42,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Kamrup Rural",
+   "pv": 48,
+   "pf": 147,
+   "mixed": 0,
+   "total": 195,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Kamrup Metro",
+   "pv": 32,
+   "pf": 74,
+   "mixed": 0,
+   "total": 106,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Karbi Anglong",
+   "pv": 231,
+   "pf": 3464,
+   "mixed": 0,
+   "total": 3695,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Karimganj",
+   "pv": 62,
+   "pf": 168,
+   "mixed": 0,
+   "total": 230,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Kokrajhar",
+   "pv": 525,
+   "pf": 2615,
+   "mixed": 0,
+   "total": 3140,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Lakhimpur",
+   "pv": 51,
+   "pf": 151,
+   "mixed": 0,
+   "total": 202,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Morigaon",
+   "pv": 53,
+   "pf": 53,
+   "mixed": 0,
+   "total": 106,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Nagaon",
+   "pv": 67,
+   "pf": 222,
+   "mixed": 0,
+   "total": 289,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Nalbari",
+   "pv": 18,
+   "pf": 16,
+   "mixed": 0,
+   "total": 34,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "North Cachar Hills",
+   "pv": 135,
+   "pf": 972,
+   "mixed": 0,
+   "total": 1107,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Sibsagar",
+   "pv": 7,
+   "pf": 15,
+   "mixed": 0,
+   "total": 22,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Sonitpur",
+   "pv": 116,
+   "pf": 76,
+   "mixed": 0,
+   "total": 192,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Tinsukia",
+   "pv": 63,
+   "pf": 113,
+   "mixed": 0,
+   "total": 176,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Udalguri",
+   "pv": 1222,
+   "pf": 1170,
+   "mixed": 0,
+   "total": 2392,
+   "year": 2015,
+   "state": "Assam"
+ },
+ {
+   "District": "Bishnupur",
+   "pv": 2,
+   "pf": 2,
+   "mixed": 0,
+   "total": 4,
+   "year": 2015,
+   "state": "Manipur"
+ },
+ {
+   "District": "Chandel",
+   "pv": 2,
+   "pf": 0,
+   "mixed": 0,
+   "total": 2,
+   "year": 2015,
+   "state": "Manipur"
+ },
+ {
+   "District": "Moreh",
+   "pv": 10,
+   "pf": 12,
+   "mixed": 0,
+   "total": 22,
+   "year": 2015,
+   "state": "Manipur"
+ },
+ {
+   "District": "Churachandpur",
+   "pv": 52,
+   "pf": 89,
+   "mixed": 0,
+   "total": 141,
+   "year": 2015,
+   "state": "Manipur"
+ },
+ {
+   "District": "Imphal East",
+   "pv": 2,
+   "pf": 0,
+   "mixed": 0,
+   "total": 2,
+   "year": 2015,
+   "state": "Manipur"
+ },
+ {
+   "District": "Jiribam ",
+   "pv": 1,
+   "pf": 2,
+   "mixed": 0,
+   "total": 3,
+   "year": 2015,
+   "state": "Manipur"
+ },
+ {
+   "District": "Imphal West",
+   "pv": 1,
+   "pf": 1,
+   "mixed": 0,
+   "total": 2,
+   "year": 2015,
+   "state": "Manipur"
+ },
+ {
+   "District": "Imphal Urban",
+   "pv": 3,
+   "pf": 0,
+   "mixed": 0,
+   "total": 3,
+   "year": 2015,
+   "state": "Manipur"
+ },
+ {
+   "District": "Kangpokpi ",
+   "pv": 2,
+   "pf": 3,
+   "mixed": 0,
+   "total": 5,
+   "year": 2015,
+   "state": "Manipur"
+ },
+ {
+   "District": "Senapati",
+   "pv": 0,
+   "pf": 0,
+   "mixed": 0,
+   "total": 0,
+   "year": 2015,
+   "state": "Manipur"
+ },
+ {
+   "District": "Tamenglong",
+   "pv": 10,
+   "pf": 3,
+   "mixed": 0,
+   "total": 13,
+   "year": 2015,
+   "state": "Manipur"
+ },
+ {
+   "District": "Thoubal",
+   "pv": 7,
+   "pf": 2,
+   "mixed": 0,
+   "total": 9,
+   "year": 2015,
+   "state": "Manipur"
+ },
+ {
+   "District": "Ukhrul",
+   "pv": 5,
+   "pf": 5,
+   "mixed": 0,
+   "total": 10,
+   "year": 2015,
+   "state": "Manipur"
+ },
+ {
+   "District": "East Khasi Hills",
+   "pv": 61,
+   "pf": 236,
+   "mixed": 0,
+   "total": 297,
+   "year": 2015,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "RIbhoi",
+   "pv": 864,
+   "pf": 1505,
+   "mixed": 0,
+   "total": 2369,
+   "year": 2015,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "Jaintia Hills",
+   "pv": 1405,
+   "pf": 951,
+   "mixed": 0,
+   "total": 2356,
+   "year": 2015,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "East Garo Hills",
+   "pv": 1079,
+   "pf": 18050,
+   "mixed": 961,
+   "total": 20090,
+   "year": 2015,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "West Khasi Hills",
+   "pv": 239,
+   "pf": 1950,
+   "mixed": 0,
+   "total": 2189,
+   "year": 2015,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "West Garo Hills",
+   "pv": 1005,
+   "pf": 10838,
+   "mixed": 0,
+   "total": 11843,
+   "year": 2015,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "South Garo Hills",
+   "pv": 122,
+   "pf": 9305,
+   "mixed": 32,
+   "total": 9459,
+   "year": 2015,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "East Sikkim",
+   "pv": 12,
+   "pf": 4,
+   "mixed": 1,
+   "total": 17,
+   "year": 2015,
+   "state": "Sikkim"
+ },
+ {
+   "District": "West Sikkim",
+   "pv": 1,
+   "pf": 0,
+   "mixed": 0,
+   "total": 1,
+   "year": 2015,
+   "state": "Sikkim"
+ },
+ {
+   "District": "North Sikkim",
+   "pv": 0,
+   "pf": 5,
+   "mixed": 1,
+   "total": 6,
+   "year": 2015,
+   "state": "Sikkim"
+ },
+ {
+   "District": "South Sikkim",
+   "pv": 3,
+   "pf": 0,
+   "mixed": 0,
+   "total": 3,
+   "year": 2015,
+   "state": "Sikkim"
+ },
+ {
+   "District": "North Tripura",
+   "pv": 321,
+   "pf": 5327,
+   "mixed": 0,
+   "total": 5648,
+   "year": 2015,
+   "state": "Tripura"
+ },
+ {
+   "District": "Unakuti ",
+   "pv": 22,
+   "pf": 886,
+   "mixed": 5,
+   "total": 913,
+   "year": 2015,
+   "state": "Tripura"
+ },
+ {
+   "District": "Dhalai Tripura",
+   "pv": 686,
+   "pf": 9764,
+   "mixed": 0,
+   "total": 10450,
+   "year": 2015,
+   "state": "Tripura"
+ },
+ {
+   "District": "Khowai",
+   "pv": 125,
+   "pf": 1395,
+   "mixed": 131,
+   "total": 1651,
+   "year": 2015,
+   "state": "Tripura"
+ },
+ {
+   "District": "West Tripura",
+   "pv": 44,
+   "pf": 522,
+   "mixed": 0,
+   "total": 566,
+   "year": 2015,
+   "state": "Tripura"
+ },
+ {
+   "District": "Sepahijala",
+   "pv": 39,
+   "pf": 297,
+   "mixed": 0,
+   "total": 336,
+   "year": 2015,
+   "state": "Tripura"
+ },
+ {
+   "District": "Gomati",
+   "pv": 357,
+   "pf": 3502,
+   "mixed": 0,
+   "total": 3859,
+   "year": 2015,
+   "state": "Tripura"
+ },
+ {
+   "District": "South Tripura",
+   "pv": 857,
+   "pf": 8245,
+   "mixed": 0,
+   "total": 9102,
+   "year": 2015,
+   "state": "Tripura"
+ },
+ {
+   "District": "Anjaw",
+   "pv": 17,
+   "pf": 12,
+   "mixed": 0,
+   "total": 29,
+   "year": 2015,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Changlang",
+   "pv": 289,
+   "pf": 298,
+   "mixed": 0,
+   "total": 587,
+   "year": 2015,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "East Kameng",
+   "pv": 220,
+   "pf": 20,
+   "mixed": 0,
+   "total": 240,
+   "year": 2015,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "West Siang",
+   "pv": 4055,
+   "pf": 119,
+   "mixed": 235,
+   "total": 4409,
+   "year": 2015,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Kurung Kumey",
+   "pv": 78,
+   "pf": 9,
+   "mixed": 0,
+   "total": 87,
+   "year": 2015,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Lower Dibang Valley ",
+   "pv": 237,
+   "pf": 230,
+   "mixed": 0,
+   "total": 467,
+   "year": 2015,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Lower Subansiri",
+   "pv": 63,
+   "pf": 17,
+   "mixed": 1,
+   "total": 81,
+   "year": 2015,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Lohit",
+   "pv": 276,
+   "pf": 334,
+   "mixed": 0,
+   "total": 610,
+   "year": 2015,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Longding",
+   "pv": 141,
+   "pf": 69,
+   "mixed": 0,
+   "total": 210,
+   "year": 2015,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Papum Pare",
+   "pv": 205,
+   "pf": 98,
+   "mixed": 0,
+   "total": 303,
+   "year": 2015,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Tirap ",
+   "pv": 509,
+   "pf": 275,
+   "mixed": 0,
+   "total": 784,
+   "year": 2015,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Upper Dibang Valley",
+   "pv": 11,
+   "pf": 5,
+   "mixed": 0,
+   "total": 16,
+   "year": 2015,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Upper Subansiri",
+   "pv": 439,
+   "pf": 68,
+   "mixed": 0,
+   "total": 507,
+   "year": 2015,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "West Siang",
+   "pv": 3829,
+   "pf": 68,
+   "mixed": 0,
+   "total": 3897,
+   "year": 2015,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "West Kameng",
+   "pv": 46,
+   "pf": 32,
+   "mixed": 0,
+   "total": 78,
+   "year": 2015,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Dimapur",
+   "pv": 33,
+   "pf": 42,
+   "mixed": 2,
+   "total": 77,
+   "year": 2015,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Kiphire",
+   "pv": 68,
+   "pf": 1,
+   "mixed": 0,
+   "total": 69,
+   "year": 2015,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Kohima",
+   "pv": 116,
+   "pf": 15,
+   "mixed": 1,
+   "total": 132,
+   "year": 2015,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Longleng",
+   "pv": 69,
+   "pf": 86,
+   "mixed": 2,
+   "total": 157,
+   "year": 2015,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Mokokchung",
+   "pv": 260,
+   "pf": 108,
+   "mixed": 7,
+   "total": 375,
+   "year": 2015,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Mon",
+   "pv": 17,
+   "pf": 15,
+   "mixed": 0,
+   "total": 32,
+   "year": 2015,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Peren",
+   "pv": 5,
+   "pf": 49,
+   "mixed": 0,
+   "total": 54,
+   "year": 2015,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Phek",
+   "pv": 18,
+   "pf": 3,
+   "mixed": 0,
+   "total": 21,
+   "year": 2015,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Tuensang",
+   "pv": 72,
+   "pf": 11,
+   "mixed": 0,
+   "total": 83,
+   "year": 2015,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Wokha",
+   "pv": 165,
+   "pf": 26,
+   "mixed": 0,
+   "total": 191,
+   "year": 2015,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Zunheboto",
+   "pv": 73,
+   "pf": 3,
+   "mixed": 0,
+   "total": 76,
+   "year": 2015,
+   "state": "Nagaland"
+ },
+ {
+   "District": "UMS Dimapur",
+   "pv": 99,
+   "pf": 156,
+   "mixed": 5,
+   "total": 260,
+   "year": 2015,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Aizawal East",
+   "pv": 207,
+   "pf": 278,
+   "mixed": 0,
+   "total": 485,
+   "year": 2015,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Aizawal West",
+   "pv": 412,
+   "pf": 440,
+   "mixed": 0,
+   "total": 852,
+   "year": 2015,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Lunglei",
+   "pv": 800,
+   "pf": 6945,
+   "mixed": 0,
+   "total": 7745,
+   "year": 2015,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Saiha",
+   "pv": 245,
+   "pf": 842,
+   "mixed": 0,
+   "total": 1087,
+   "year": 2015,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Kolasib ",
+   "pv": 278,
+   "pf": 658,
+   "mixed": 0,
+   "total": 936,
+   "year": 2015,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Mamit",
+   "pv": 1027,
+   "pf": 7739,
+   "mixed": 0,
+   "total": 8766,
+   "year": 2015,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Champhai",
+   "pv": 18,
+   "pf": 57,
+   "mixed": 0,
+   "total": 75,
+   "year": 2015,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Lawngtlai",
+   "pv": 958,
+   "pf": 7528,
+   "mixed": 0,
+   "total": 8486,
+   "year": 2015,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Serchhip",
+   "pv": 46,
+   "pf": 115,
+   "mixed": 0,
+   "total": 161,
+   "year": 2015,
+   "state": "Mizoram"
+ }
+]

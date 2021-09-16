@@ -1,0 +1,191 @@
+[
+ {
+   "DISTRICT": "Barpeta",
+   "PV": 11,
+   "PF": 1,
+   "MIXED": 0,
+   "Total": 12
+ },
+ {
+   "DISTRICT": "Bongaigaon",
+   "PV": 10,
+   "PF": 1,
+   "MIXED": 0,
+   "Total": 11
+ },
+ {
+   "DISTRICT": "Baksa",
+   "PV": 7,
+   "PF": 3,
+   "MIXED": 0,
+   "Total": 10
+ },
+ {
+   "DISTRICT": "Cachar",
+   "PV": 2,
+   "PF": 31,
+   "MIXED": 0,
+   "Total": 33
+ },
+ {
+   "DISTRICT": "Chirang",
+   "PV": 42,
+   "PF": 46,
+   "MIXED": 0,
+   "Total": 88
+ },
+ {
+   "DISTRICT": "Darrang",
+   "PV": 7,
+   "PF": 3,
+   "MIXED": 0,
+   "Total": 10
+ },
+ {
+   "DISTRICT": "Dhemaji",
+   "PV": 4,
+   "PF": 1,
+   "MIXED": 0,
+   "Total": 5
+ },
+ {
+   "DISTRICT": "Dhubri",
+   "PV": 12,
+   "PF": 12,
+   "MIXED": 0,
+   "Total": 24
+ },
+ {
+   "DISTRICT": "Dibrugarh",
+   "PV": 6,
+   "PF": 1,
+   "MIXED": 0,
+   "Total": 7
+ },
+ {
+   "DISTRICT": "Goalpara",
+   "PV": 11,
+   "PF": 47,
+   "MIXED": 0,
+   "Total": 58
+ },
+ {
+   "DISTRICT": "Golaghat",
+   "PV": 4,
+   "PF": 0,
+   "MIXED": 0,
+   "Total": 4
+ },
+ {
+   "DISTRICT": "Hailakandi",
+   "PV": 4,
+   "PF": 0,
+   "MIXED": 0,
+   "Total": 4
+ },
+ {
+   "DISTRICT": "Jorhat",
+   "PV": 5,
+   "PF": 2,
+   "MIXED": 0,
+   "Total": 7
+ },
+ {
+   "DISTRICT": "Kamrup (R)   ",
+   "PV": 1,
+   "PF": 11,
+   "MIXED": 0,
+   "Total": 12
+ },
+ {
+   "DISTRICT": "Kamrup (M)  ",
+   "PV": 5,
+   "PF": 3,
+   "MIXED": 0,
+   "Total": 8
+ },
+ {
+   "DISTRICT": "K-Anglong",
+   "PV": 10,
+   "PF": 85,
+   "MIXED": 0,
+   "Total": 95
+ },
+ {
+   "DISTRICT": "Karimganj",
+   "PV": 27,
+   "PF": 29,
+   "MIXED": 0,
+   "Total": 56
+ },
+ {
+   "DISTRICT": "Kokrajhar",
+   "PV": 228,
+   "PF": 219,
+   "MIXED": 0,
+   "Total": 447
+ },
+ {
+   "DISTRICT": "Lakhimpur",
+   "PV": 0,
+   "PF": 0,
+   "MIXED": 0,
+   "Total": 0
+ },
+ {
+   "DISTRICT": "Morigaon",
+   "PV": 9,
+   "PF": 5,
+   "MIXED": 0,
+   "Total": 14
+ },
+ {
+   "DISTRICT": "Nagaon",
+   "PV": 22,
+   "PF": 18,
+   "MIXED": 0,
+   "Total": 40
+ },
+ {
+   "DISTRICT": "Nalbari",
+   "PV": 3,
+   "PF": 1,
+   "MIXED": 0,
+   "Total": 4
+ },
+ {
+   "DISTRICT": "N.C.Hills",
+   "PV": 7,
+   "PF": 57,
+   "MIXED": 0,
+   "Total": 64
+ },
+ {
+   "DISTRICT": "Sibsagar",
+   "PV": 2,
+   "PF": 1,
+   "MIXED": 0,
+   "Total": 3
+ },
+ {
+   "DISTRICT": "Sonitpur",
+   "PV": 16,
+   "PF": 8,
+   "MIXED": 0,
+   "Total": 24
+ },
+ {
+   "DISTRICT": "Tinsukia",
+   "PV": 2,
+   "PF": 2,
+   "MIXED": 0,
+   "Total": 4
+ },
+ {
+   "DISTRICT": "Udalguri",
+   "PV": 130,
+   "PF": 285,
+   "MIXED": 0,
+   "Total": 415
+ }
+]

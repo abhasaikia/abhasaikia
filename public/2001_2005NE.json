@@ -1,0 +1,3287 @@
+[
+ {
+   "District": "Imphal",
+   "pv": 33,
+   "pf": 10,
+   "mixed": 0,
+   "Total": 43,
+   "year": 2001,
+   "state": "Manipur"
+ },
+ {
+   "District": "Jiribam",
+   "pv": 0,
+   "pf": 72,
+   "mixed": 0,
+   "Total": 72,
+   "year": 2001,
+   "state": "Manipur"
+ },
+ {
+   "District": "Thoubal",
+   "pv": 82,
+   "pf": 15,
+   "mixed": 0,
+   "Total": 97,
+   "year": 2001,
+   "state": "Manipur"
+ },
+ {
+   "District": "Bishnupur",
+   "pv": 59,
+   "pf": 14,
+   "mixed": 0,
+   "Total": 73,
+   "year": 2001,
+   "state": "Manipur"
+ },
+ {
+   "District": "Ukhurul",
+   "pv": 68,
+   "pf": 28,
+   "mixed": 0,
+   "Total": 96,
+   "year": 2001,
+   "state": "Manipur"
+ },
+ {
+   "District": "Churachandpur",
+   "pv": 63,
+   "pf": 185,
+   "mixed": 0,
+   "Total": 248,
+   "year": 2001,
+   "state": "Manipur"
+ },
+ {
+   "District": "Chandel",
+   "pv": 55,
+   "pf": 11,
+   "mixed": 0,
+   "Total": 66,
+   "year": 2001,
+   "state": "Manipur"
+ },
+ {
+   "District": "Senapati",
+   "pv": 4,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 4,
+   "year": 2001,
+   "state": "Manipur"
+ },
+ {
+   "District": "Kangpoki",
+   "pv": 59,
+   "pf": 12,
+   "mixed": 0,
+   "Total": 71,
+   "year": 2001,
+   "state": "Manipur"
+ },
+ {
+   "District": "Tamenglong",
+   "pv": 149,
+   "pf": 24,
+   "mixed": 0,
+   "Total": 173,
+   "year": 2001,
+   "state": "Manipur"
+ },
+ {
+   "District": "East Khasi Hills",
+   "pv": 777,
+   "pf": 1891,
+   "mixed": 0,
+   "Total": 2668,
+   "year": 2001,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "Jaintia Hills",
+   "pv": 3813,
+   "pf": 232,
+   "mixed": 0,
+   "Total": 4045,
+   "year": 2001,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "Garo Hills",
+   "pv": 150,
+   "pf": 13767,
+   "mixed": 0,
+   "Total": 13917,
+   "year": 2001,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "East Sikkim",
+   "pv": 12,
+   "pf": 11,
+   "mixed": 0,
+   "Total": 23,
+   "year": 2001,
+   "state": "Sikkim"
+ },
+ {
+   "District": "West Sikkim",
+   "pv": 0,
+   "pf": 1,
+   "mixed": 0,
+   "Total": 1,
+   "year": 2001,
+   "state": "Sikkim"
+ },
+ {
+   "District": "North Sikkim",
+   "pv": 0,
+   "pf": 1,
+   "mixed": 0,
+   "Total": 1,
+   "year": 2001,
+   "state": "Sikkim"
+ },
+ {
+   "District": "South Sikkim",
+   "pv": 6,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 6,
+   "year": 2001,
+   "state": "Sikkim"
+ },
+ {
+   "District": "Barpeta",
+   "pv": 402,
+   "pf": 933,
+   "mixed": 0,
+   "Total": 1335,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Bongaigaon",
+   "pv": 180,
+   "pf": 2469,
+   "mixed": 0,
+   "Total": 2649,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Cachar",
+   "pv": 10,
+   "pf": 3886,
+   "mixed": 0,
+   "Total": 3896,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Darrang",
+   "pv": 14266,
+   "pf": 1328,
+   "mixed": 0,
+   "Total": 15594,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Dhemaji",
+   "pv": 809,
+   "pf": 17,
+   "mixed": 0,
+   "Total": 826,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Dhubri",
+   "pv": 243,
+   "pf": 1829,
+   "mixed": 0,
+   "Total": 2072,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Dibrugarh",
+   "pv": 11,
+   "pf": 59,
+   "mixed": 0,
+   "Total": 70,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Goalpara",
+   "pv": 1343,
+   "pf": 3835,
+   "mixed": 0,
+   "Total": 5178,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Golaghat",
+   "pv": 74,
+   "pf": 83,
+   "mixed": 0,
+   "Total": 157,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Hailakandi",
+   "pv": 88,
+   "pf": 5128,
+   "mixed": 0,
+   "Total": 5216,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Jorhat",
+   "pv": 184,
+   "pf": 30,
+   "mixed": 0,
+   "Total": 214,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Kamrup",
+   "pv": 1772,
+   "pf": 5291,
+   "mixed": 0,
+   "Total": 7063,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Karbi Anglong",
+   "pv": 2119,
+   "pf": 14560,
+   "mixed": 0,
+   "Total": 16679,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Karimganj",
+   "pv": 57,
+   "pf": 418,
+   "mixed": 2,
+   "Total": 477,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Kokrajhar",
+   "pv": 1235,
+   "pf": 2453,
+   "mixed": 0,
+   "Total": 3688,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Lakhimpur",
+   "pv": 1800,
+   "pf": 217,
+   "mixed": 0,
+   "Total": 2017,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Morigaon",
+   "pv": 273,
+   "pf": 208,
+   "mixed": 0,
+   "Total": 481,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Nagaon",
+   "pv": 1753,
+   "pf": 2971,
+   "mixed": 0,
+   "Total": 4724,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Nalbari",
+   "pv": 257,
+   "pf": 1259,
+   "mixed": 0,
+   "Total": 1516,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "North Cachar Hills",
+   "pv": 1228,
+   "pf": 2262,
+   "mixed": 0,
+   "Total": 3490,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Sivasagar",
+   "pv": 14,
+   "pf": 33,
+   "mixed": 0,
+   "Total": 47,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Sonitpur",
+   "pv": 3791,
+   "pf": 2298,
+   "mixed": 0,
+   "Total": 6089,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Tinsukia",
+   "pv": 890,
+   "pf": 547,
+   "mixed": 0,
+   "Total": 1437,
+   "year": 2001,
+   "state": "Assam"
+ },
+ {
+   "District": "Tirap",
+   "pv": 494,
+   "pf": 3822,
+   "mixed": 0,
+   "Total": 4316,
+   "year": 2001,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Changlang",
+   "pv": 2068,
+   "pf": 301,
+   "mixed": 118,
+   "Total": 2487,
+   "year": 2001,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Lohit",
+   "pv": 8155,
+   "pf": 4665,
+   "mixed": 302,
+   "Total": 13122,
+   "year": 2001,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Dibang Valley",
+   "pv": 6083,
+   "pf": 1080,
+   "mixed": 96,
+   "Total": 7259,
+   "year": 2001,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "West Siang ",
+   "pv": 6642,
+   "pf": 1727,
+   "mixed": 11,
+   "Total": 8380,
+   "year": 2001,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "East Chiang",
+   "pv": 12085,
+   "pf": 248,
+   "mixed": 200,
+   "Total": 12533,
+   "year": 2001,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Upper Subanshiri",
+   "pv": 8565,
+   "pf": 795,
+   "mixed": 190,
+   "Total": 9550,
+   "year": 2001,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Lower Subanshiri",
+   "pv": 548,
+   "pf": 16,
+   "mixed": 0,
+   "Total": 564,
+   "year": 2001,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Papum Pare",
+   "pv": 207,
+   "pf": 7,
+   "mixed": 1,
+   "Total": 215,
+   "year": 2001,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "East Kameng",
+   "pv": 3414,
+   "pf": 1451,
+   "mixed": 46,
+   "Total": 4911,
+   "year": 2001,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "West Kameg",
+   "pv": 2885,
+   "pf": 451,
+   "mixed": 112,
+   "Total": 3448,
+   "year": 2001,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Upper Siang",
+   "pv": 416,
+   "pf": 42,
+   "mixed": 0,
+   "Total": 458,
+   "year": 2001,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Aizawl west",
+   "pv": 1369,
+   "pf": 4431,
+   "mixed": 0,
+   "Total": 5800,
+   "year": 2001,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Aizawl east",
+   "pv": 171,
+   "pf": 410,
+   "mixed": 0,
+   "Total": 581,
+   "year": 2001,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Lunglei",
+   "pv": 2269,
+   "pf": 960,
+   "mixed": 0,
+   "Total": 3229,
+   "year": 2001,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Chhimtuipui",
+   "pv": 1165,
+   "pf": 154,
+   "mixed": 0,
+   "Total": 1319,
+   "year": 2001,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Kohima",
+   "pv": 209,
+   "pf": 129,
+   "mixed": 0,
+   "Total": 338,
+   "year": 2001,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Phek",
+   "pv": 247,
+   "pf": 7,
+   "mixed": 0,
+   "Total": 254,
+   "year": 2001,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Wokha",
+   "pv": 352,
+   "pf": 74,
+   "mixed": 0,
+   "Total": 426,
+   "year": 2001,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Mokokchung",
+   "pv": 1499,
+   "pf": 8,
+   "mixed": 0,
+   "Total": 1507,
+   "year": 2001,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Zunheboto",
+   "pv": 130,
+   "pf": 25,
+   "mixed": 0,
+   "Total": 155,
+   "year": 2001,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Mon",
+   "pv": 241,
+   "pf": 23,
+   "mixed": 0,
+   "Total": 264,
+   "year": 2001,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Tuensang",
+   "pv": 582,
+   "pf": 20,
+   "mixed": 0,
+   "Total": 602,
+   "year": 2001,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Dimapur",
+   "pv": 28,
+   "pf": 9,
+   "mixed": 0,
+   "Total": 37,
+   "year": 2001,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Peren",
+   "pv": 532,
+   "pf": 203,
+   "mixed": 0,
+   "Total": 735,
+   "year": 2001,
+   "state": "Nagaland"
+ },
+ {
+   "District": "North tripura",
+   "pv": 79,
+   "pf": 1712,
+   "mixed": 0,
+   "Total": 1791,
+   "year": 2001,
+   "state": "Tripura"
+ },
+ {
+   "District": "Dhalai",
+   "pv": 605,
+   "pf": 776,
+   "mixed": 0,
+   "Total": 1381,
+   "year": 2001,
+   "state": "Tripura"
+ },
+ {
+   "District": "West Tripura",
+   "pv": 766,
+   "pf": 2498,
+   "mixed": 0,
+   "Total": 3264,
+   "year": 2001,
+   "state": "Tripura"
+ },
+ {
+   "District": "South Tripura",
+   "pv": 2423,
+   "pf": 9643,
+   "mixed": 0,
+   "Total": 12066,
+   "year": 2001,
+   "state": "Tripura"
+ },
+ {
+   "District": "Barpeta",
+   "pv": 1194,
+   "pf": 1443,
+   "mixed": 0,
+   "Total": 2637,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Bongaigaon",
+   "pv": 163,
+   "pf": 2428,
+   "mixed": 1,
+   "Total": 2592,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Cachar",
+   "pv": 560,
+   "pf": 2912,
+   "mixed": 0,
+   "Total": 3472,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Darrang",
+   "pv": 13074,
+   "pf": 2086,
+   "mixed": 0,
+   "Total": 15160,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Dhemaji",
+   "pv": 2071,
+   "pf": 558,
+   "mixed": 0,
+   "Total": 2629,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Dhubri",
+   "pv": 175,
+   "pf": 1790,
+   "mixed": 0,
+   "Total": 1965,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Dibrugarh",
+   "pv": 13,
+   "pf": 31,
+   "mixed": 0,
+   "Total": 44,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Goalpara",
+   "pv": 1036,
+   "pf": 3528,
+   "mixed": 0,
+   "Total": 4564,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Golaghat",
+   "pv": 122,
+   "pf": 422,
+   "mixed": 0,
+   "Total": 544,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Hailakandi",
+   "pv": 37,
+   "pf": 6992,
+   "mixed": 0,
+   "Total": 7029,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Jorhat",
+   "pv": 148,
+   "pf": 186,
+   "mixed": 0,
+   "Total": 334,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Kamrup",
+   "pv": 939,
+   "pf": 4645,
+   "mixed": 0,
+   "Total": 5584,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Karbi Anglong",
+   "pv": 1561,
+   "pf": 11905,
+   "mixed": 38,
+   "Total": 13504,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Karimganj",
+   "pv": 53,
+   "pf": 653,
+   "mixed": 0,
+   "Total": 706,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Kokrajhar",
+   "pv": 1643,
+   "pf": 5845,
+   "mixed": 0,
+   "Total": 7488,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Lakhimpur",
+   "pv": 3043,
+   "pf": 100,
+   "mixed": 0,
+   "Total": 3143,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Morigaon",
+   "pv": 124,
+   "pf": 266,
+   "mixed": 0,
+   "Total": 390,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Nagaon",
+   "pv": 1955,
+   "pf": 3348,
+   "mixed": 0,
+   "Total": 5303,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Nalbari",
+   "pv": 296,
+   "pf": 1468,
+   "mixed": 0,
+   "Total": 1764,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "North Cachar Hills",
+   "pv": 820,
+   "pf": 2449,
+   "mixed": 0,
+   "Total": 3269,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Sivasagar",
+   "pv": 5,
+   "pf": 37,
+   "mixed": 0,
+   "Total": 42,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Sonitpur",
+   "pv": 4128,
+   "pf": 1674,
+   "mixed": 0,
+   "Total": 5802,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Tinsukia",
+   "pv": 0,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 0,
+   "year": 2002,
+   "state": "Assam"
+ },
+ {
+   "District": "Imphal",
+   "pv": 46,
+   "pf": 38,
+   "mixed": 0,
+   "Total": 84,
+   "year": 2002,
+   "state": "Manipur"
+ },
+ {
+   "District": "Jiribam",
+   "pv": 55,
+   "pf": 157,
+   "mixed": 0,
+   "Total": 212,
+   "year": 2002,
+   "state": "Manipur"
+ },
+ {
+   "District": "Thoubal",
+   "pv": 150,
+   "pf": 31,
+   "mixed": 0,
+   "Total": 181,
+   "year": 2002,
+   "state": "Manipur"
+ },
+ {
+   "District": "Bishnupur",
+   "pv": 22,
+   "pf": 4,
+   "mixed": 0,
+   "Total": 26,
+   "year": 2002,
+   "state": "Manipur"
+ },
+ {
+   "District": "Ukhurul",
+   "pv": 67,
+   "pf": 117,
+   "mixed": 0,
+   "Total": 184,
+   "year": 2002,
+   "state": "Manipur"
+ },
+ {
+   "District": "Churachandpur",
+   "pv": 55,
+   "pf": 114,
+   "mixed": 0,
+   "Total": 169,
+   "year": 2002,
+   "state": "Manipur"
+ },
+ {
+   "District": "Chandel",
+   "pv": 151,
+   "pf": 65,
+   "mixed": 0,
+   "Total": 216,
+   "year": 2002,
+   "state": "Manipur"
+ },
+ {
+   "District": "Senapati",
+   "pv": 9,
+   "pf": 8,
+   "mixed": 0,
+   "Total": 17,
+   "year": 2002,
+   "state": "Manipur"
+ },
+ {
+   "District": "Kangpoki",
+   "pv": 21,
+   "pf": 19,
+   "mixed": 0,
+   "Total": 40,
+   "year": 2002,
+   "state": "Manipur"
+ },
+ {
+   "District": "Tamenglong",
+   "pv": 91,
+   "pf": 48,
+   "mixed": 0,
+   "Total": 139,
+   "year": 2002,
+   "state": "Manipur"
+ },
+ {
+   "District": "Khasi Hills",
+   "pv": 2089,
+   "pf": 1443,
+   "mixed": 0,
+   "Total": 3532,
+   "year": 2002,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "Jaintia Hills",
+   "pv": 4650,
+   "pf": 301,
+   "mixed": 0,
+   "Total": 4951,
+   "year": 2002,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "Garo Hills",
+   "pv": 84,
+   "pf": 9351,
+   "mixed": 0,
+   "Total": 9435,
+   "year": 2002,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "East Sikkim",
+   "pv": 41,
+   "pf": 6,
+   "mixed": 0,
+   "Total": 47,
+   "year": 2002,
+   "state": "Sikkim"
+ },
+ {
+   "District": "West Sikkim",
+   "pv": 0,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 0,
+   "year": 2002,
+   "state": "Sikkim"
+ },
+ {
+   "District": "North Sikkim",
+   "pv": 0,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 0,
+   "year": 2002,
+   "state": "Sikkim"
+ },
+ {
+   "District": "South Sikkim",
+   "pv": 5,
+   "pf": 1,
+   "mixed": 0,
+   "Total": 6,
+   "year": 2002,
+   "state": "Sikkim"
+ },
+ {
+   "District": "West Tripura",
+   "pv": 389,
+   "pf": 1717,
+   "mixed": 0,
+   "Total": 2106,
+   "year": 2002,
+   "state": "Tripura"
+ },
+ {
+   "District": "South Tripura",
+   "pv": 1696,
+   "pf": 7090,
+   "mixed": 0,
+   "Total": 8786,
+   "year": 2002,
+   "state": "Tripura"
+ },
+ {
+   "District": "North Tripura",
+   "pv": 43,
+   "pf": 1116,
+   "mixed": 0,
+   "Total": 1159,
+   "year": 2002,
+   "state": "Tripura"
+ },
+ {
+   "District": "Dhalai",
+   "pv": 328,
+   "pf": 940,
+   "mixed": 0,
+   "Total": 1268,
+   "year": 2002,
+   "state": "Tripura"
+ },
+ {
+   "District": "Tirap",
+   "pv": 1972,
+   "pf": 166,
+   "mixed": 155,
+   "Total": 2293,
+   "year": 2002,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Changlang",
+   "pv": 3749,
+   "pf": 2743,
+   "mixed": 110,
+   "Total": 6602,
+   "year": 2002,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Lohit",
+   "pv": 4912,
+   "pf": 968,
+   "mixed": 27,
+   "Total": 5907,
+   "year": 2002,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Dibang Valley",
+   "pv": 5580,
+   "pf": 1037,
+   "mixed": 2,
+   "Total": 6619,
+   "year": 2002,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "West  Siang",
+   "pv": 5908,
+   "pf": 1087,
+   "mixed": 198,
+   "Total": 7193,
+   "year": 2002,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "East Siang",
+   "pv": 6183,
+   "pf": 1879,
+   "mixed": 151,
+   "Total": 8213,
+   "year": 2002,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Upper Subhansiri",
+   "pv": 403,
+   "pf": 1,
+   "mixed": 0,
+   "Total": 404,
+   "year": 2002,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Lower Subhansiri",
+   "pv": 130,
+   "pf": 9,
+   "mixed": 1,
+   "Total": 140,
+   "year": 2002,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Papum Pare",
+   "pv": 2830,
+   "pf": 1128,
+   "mixed": 54,
+   "Total": 4012,
+   "year": 2002,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "East Kameng",
+   "pv": 509,
+   "pf": 29,
+   "mixed": 7,
+   "Total": 545,
+   "year": 2002,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "West Kameng",
+   "pv": 208,
+   "pf": 13,
+   "mixed": 0,
+   "Total": 221,
+   "year": 2002,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Upper Sinang",
+   "pv": 155,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 155,
+   "year": 2002,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "kohima",
+   "pv": 307,
+   "pf": 5,
+   "mixed": 0,
+   "Total": 312,
+   "year": 2002,
+   "state": "Nagaland"
+ },
+ {
+   "District": "phek",
+   "pv": 188,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 188,
+   "year": 2002,
+   "state": "Nagaland"
+ },
+ {
+   "District": "wokha",
+   "pv": 321,
+   "pf": 26,
+   "mixed": 0,
+   "Total": 347,
+   "year": 2002,
+   "state": "Nagaland"
+ },
+ {
+   "District": "mokokchung",
+   "pv": 1253,
+   "pf": 45,
+   "mixed": 0,
+   "Total": 1298,
+   "year": 2002,
+   "state": "Nagaland"
+ },
+ {
+   "District": "zunheboto",
+   "pv": 247,
+   "pf": 32,
+   "mixed": 0,
+   "Total": 279,
+   "year": 2002,
+   "state": "Nagaland"
+ },
+ {
+   "District": "mon",
+   "pv": 130,
+   "pf": 10,
+   "mixed": 0,
+   "Total": 140,
+   "year": 2002,
+   "state": "Nagaland"
+ },
+ {
+   "District": "tuensang",
+   "pv": 904,
+   "pf": 6,
+   "mixed": 0,
+   "Total": 910,
+   "year": 2002,
+   "state": "Nagaland"
+ },
+ {
+   "District": "dimapur",
+   "pv": 4,
+   "pf": 3,
+   "mixed": 0,
+   "Total": 7,
+   "year": 2002,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Barpeta",
+   "pv": 986,
+   "pf": 646,
+   "mixed": 0,
+   "Total": 1632,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Bongaigaon",
+   "pv": 237,
+   "pf": 1881,
+   "mixed": 0,
+   "Total": 2118,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Cachar",
+   "pv": 15,
+   "pf": 3941,
+   "mixed": 0,
+   "Total": 3956,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Darrang",
+   "pv": 10906,
+   "pf": 1297,
+   "mixed": 0,
+   "Total": 12203,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Dhemaji",
+   "pv": 866,
+   "pf": 98,
+   "mixed": 0,
+   "Total": 964,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Dhubri",
+   "pv": 108,
+   "pf": 1444,
+   "mixed": 0,
+   "Total": 1552,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Dibrugarh",
+   "pv": 8,
+   "pf": 28,
+   "mixed": 0,
+   "Total": 36,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Goalpara",
+   "pv": 762,
+   "pf": 3047,
+   "mixed": 0,
+   "Total": 3809,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Golaghat",
+   "pv": 295,
+   "pf": 176,
+   "mixed": 0,
+   "Total": 471,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Hailakandi",
+   "pv": 36,
+   "pf": 7532,
+   "mixed": 0,
+   "Total": 7568,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Jorhat",
+   "pv": 48,
+   "pf": 88,
+   "mixed": 0,
+   "Total": 136,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Kamrup",
+   "pv": 522,
+   "pf": 3715,
+   "mixed": 0,
+   "Total": 4237,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Karbi Anglong",
+   "pv": 2263,
+   "pf": 11200,
+   "mixed": 21,
+   "Total": 13484,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Karimganj",
+   "pv": 75,
+   "pf": 728,
+   "mixed": 0,
+   "Total": 803,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Kokrajhar",
+   "pv": 1038,
+   "pf": 3803,
+   "mixed": 0,
+   "Total": 4841,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Lakhimpur",
+   "pv": 3035,
+   "pf": 41,
+   "mixed": 0,
+   "Total": 3076,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Morigaon",
+   "pv": 126,
+   "pf": 226,
+   "mixed": 0,
+   "Total": 352,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Nagaon",
+   "pv": 1461,
+   "pf": 3541,
+   "mixed": 0,
+   "Total": 5002,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Nalbari",
+   "pv": 341,
+   "pf": 1125,
+   "mixed": 0,
+   "Total": 1466,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "North Cachar Hills",
+   "pv": 452,
+   "pf": 2099,
+   "mixed": 0,
+   "Total": 2551,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Sivasagar",
+   "pv": 4,
+   "pf": 19,
+   "mixed": 0,
+   "Total": 23,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Sonitpur",
+   "pv": 3222,
+   "pf": 1562,
+   "mixed": 0,
+   "Total": 4784,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Tinsukia",
+   "pv": 1096,
+   "pf": 410,
+   "mixed": 0,
+   "Total": 1506,
+   "year": 2003,
+   "state": "Assam"
+ },
+ {
+   "District": "Imphal",
+   "pv": 50,
+   "pf": 43,
+   "mixed": 0,
+   "Total": 93,
+   "year": 2003,
+   "state": "Manipur"
+ },
+ {
+   "District": "Jiribam",
+   "pv": 162,
+   "pf": 137,
+   "mixed": 0,
+   "Total": 299,
+   "year": 2003,
+   "state": "Manipur"
+ },
+ {
+   "District": "Thoubal",
+   "pv": 169,
+   "pf": 30,
+   "mixed": 0,
+   "Total": 199,
+   "year": 2003,
+   "state": "Manipur"
+ },
+ {
+   "District": "Bishnupur",
+   "pv": 45,
+   "pf": 16,
+   "mixed": 0,
+   "Total": 61,
+   "year": 2003,
+   "state": "Manipur"
+ },
+ {
+   "District": "Ukhurul",
+   "pv": 179,
+   "pf": 495,
+   "mixed": 0,
+   "Total": 674,
+   "year": 2003,
+   "state": "Manipur"
+ },
+ {
+   "District": "Churachandpur",
+   "pv": 54,
+   "pf": 177,
+   "mixed": 0,
+   "Total": 231,
+   "year": 2003,
+   "state": "Manipur"
+ },
+ {
+   "District": "Chandel",
+   "pv": 211,
+   "pf": 136,
+   "mixed": 0,
+   "Total": 347,
+   "year": 2003,
+   "state": "Manipur"
+ },
+ {
+   "District": "Senapati",
+   "pv": 107,
+   "pf": 24,
+   "mixed": 0,
+   "Total": 131,
+   "year": 2003,
+   "state": "Manipur"
+ },
+ {
+   "District": "Kangpoki",
+   "pv": 68,
+   "pf": 37,
+   "mixed": 0,
+   "Total": 105,
+   "year": 2003,
+   "state": "Manipur"
+ },
+ {
+   "District": "Tamenglong",
+   "pv": 376,
+   "pf": 73,
+   "mixed": 0,
+   "Total": 449,
+   "year": 2003,
+   "state": "Manipur"
+ },
+ {
+   "District": "Khasi Hills",
+   "pv": 736,
+   "pf": 2300,
+   "mixed": 14,
+   "Total": 3050,
+   "year": 2003,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "Jaintia Hills",
+   "pv": 3067,
+   "pf": 168,
+   "mixed": 0,
+   "Total": 3235,
+   "year": 2003,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "Garo Hills",
+   "pv": 2225,
+   "pf": 9856,
+   "mixed": 0,
+   "Total": 12081,
+   "year": 2003,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "East Sikkim",
+   "pv": 112,
+   "pf": 30,
+   "mixed": 1,
+   "Total": 143,
+   "year": 2003,
+   "state": "Sikkim"
+ },
+ {
+   "District": "West Sikkim",
+   "pv": 0,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 0,
+   "year": 2003,
+   "state": "Sikkim"
+ },
+ {
+   "District": "North Sikkim",
+   "pv": 1,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 1,
+   "year": 2003,
+   "state": "Sikkim"
+ },
+ {
+   "District": "South Sikkim",
+   "pv": 124,
+   "pf": 9,
+   "mixed": 1,
+   "Total": 134,
+   "year": 2003,
+   "state": "Sikkim"
+ },
+ {
+   "District": "West Tripura",
+   "pv": 389,
+   "pf": 1717,
+   "mixed": 0,
+   "Total": 2106,
+   "year": 2003,
+   "state": "Tripura"
+ },
+ {
+   "District": "South Tripura",
+   "pv": 1696,
+   "pf": 7090,
+   "mixed": 0,
+   "Total": 8786,
+   "year": 2003,
+   "state": "Tripura"
+ },
+ {
+   "District": "North Tripura",
+   "pv": 43,
+   "pf": 1116,
+   "mixed": 0,
+   "Total": 1159,
+   "year": 2003,
+   "state": "Tripura"
+ },
+ {
+   "District": "Dhalai",
+   "pv": 328,
+   "pf": 940,
+   "mixed": 0,
+   "Total": 1268,
+   "year": 2003,
+   "state": "Tripura"
+ },
+ {
+   "District": "Tirap",
+   "pv": 1614,
+   "pf": 71,
+   "mixed": 86,
+   "Total": 1771,
+   "year": 2003,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Changlang",
+   "pv": 3672,
+   "pf": 1794,
+   "mixed": 51,
+   "Total": 5517,
+   "year": 2003,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Lohit",
+   "pv": 4398,
+   "pf": 1404,
+   "mixed": 126,
+   "Total": 5928,
+   "year": 2003,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Dibang Valley",
+   "pv": 3794,
+   "pf": 593,
+   "mixed": 4,
+   "Total": 4391,
+   "year": 2003,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "West Siang ",
+   "pv": 4549,
+   "pf": 2453,
+   "mixed": 0,
+   "Total": 7002,
+   "year": 2003,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "East Chiang",
+   "pv": 4355,
+   "pf": 3031,
+   "mixed": 0,
+   "Total": 7386,
+   "year": 2003,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Upper Subanshiri",
+   "pv": 259,
+   "pf": 4,
+   "mixed": 1,
+   "Total": 264,
+   "year": 2003,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Lower Subanshiri",
+   "pv": 109,
+   "pf": 6,
+   "mixed": 2,
+   "Total": 117,
+   "year": 2003,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Papum Pare",
+   "pv": 886,
+   "pf": 36,
+   "mixed": 10,
+   "Total": 932,
+   "year": 2003,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "East Kameng",
+   "pv": 1206,
+   "pf": 644,
+   "mixed": 13,
+   "Total": 1863,
+   "year": 2003,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": " West Kameg",
+   "pv": 116,
+   "pf": 8,
+   "mixed": 1,
+   "Total": 125,
+   "year": 2003,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": " Upper Siang",
+   "pv": 500,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 500,
+   "year": 2003,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Kohima",
+   "pv": 149,
+   "pf": 3,
+   "mixed": 0,
+   "Total": 152,
+   "year": 2003,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Phek",
+   "pv": 246,
+   "pf": 1,
+   "mixed": 0,
+   "Total": 247,
+   "year": 2003,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Wokha",
+   "pv": 209,
+   "pf": 21,
+   "mixed": 0,
+   "Total": 230,
+   "year": 2003,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Mokokchung",
+   "pv": 1034,
+   "pf": 38,
+   "mixed": 0,
+   "Total": 1072,
+   "year": 2003,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Zunheboto",
+   "pv": 252,
+   "pf": 24,
+   "mixed": 0,
+   "Total": 276,
+   "year": 2003,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Mon",
+   "pv": 74,
+   "pf": 5,
+   "mixed": 0,
+   "Total": 79,
+   "year": 2003,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Tuensang",
+   "pv": 749,
+   "pf": 35,
+   "mixed": 0,
+   "Total": 784,
+   "year": 2003,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Dimapur",
+   "pv": 217,
+   "pf": 75,
+   "mixed": 0,
+   "Total": 292,
+   "year": 2003,
+   "state": "Nagaland"
+ },
+ {
+   "District": "u.m.s. dimapur",
+   "pv": 163,
+   "pf": 75,
+   "mixed": 0,
+   "Total": 238,
+   "year": 2003,
+   "state": "Nagaland"
+ },
+ {
+   "District": "Aizawal West",
+   "pv": 207,
+   "pf": 378,
+   "mixed": 0,
+   "Total": 585,
+   "year": 2003,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Kolasib",
+   "pv": 142,
+   "pf": 1884,
+   "mixed": 0,
+   "Total": 2026,
+   "year": 2003,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Mamit",
+   "pv": 443,
+   "pf": 197,
+   "mixed": 0,
+   "Total": 640,
+   "year": 2003,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Aizawal East",
+   "pv": 11,
+   "pf": 51,
+   "mixed": 0,
+   "Total": 62,
+   "year": 2003,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Champhai",
+   "pv": 103,
+   "pf": 146,
+   "mixed": 0,
+   "Total": 249,
+   "year": 2003,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Serchhip",
+   "pv": 94,
+   "pf": 222,
+   "mixed": 0,
+   "Total": 316,
+   "year": 2003,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Lunglei",
+   "pv": 1202,
+   "pf": 969,
+   "mixed": 0,
+   "Total": 2171,
+   "year": 2003,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Saiha",
+   "pv": 835,
+   "pf": 98,
+   "mixed": 0,
+   "Total": 933,
+   "year": 2003,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Lawngtlai",
+   "pv": 89,
+   "pf": 222,
+   "mixed": 0,
+   "Total": 311,
+   "year": 2003,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Barpeta",
+   "pv": 705,
+   "pf": 508,
+   "mixed": 0,
+   "Total": 1213,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Bongaigaon",
+   "pv": 127,
+   "pf": 2046,
+   "mixed": 0,
+   "Total": 2173,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Cachar",
+   "pv": 32,
+   "pf": 3428,
+   "mixed": 0,
+   "Total": 3460,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Darrang",
+   "pv": 5648,
+   "pf": 732,
+   "mixed": 0,
+   "Total": 6380,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Dhemaji",
+   "pv": 321,
+   "pf": 75,
+   "mixed": 0,
+   "Total": 396,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Dhubri",
+   "pv": 82,
+   "pf": 1074,
+   "mixed": 0,
+   "Total": 1156,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Dibrugarh",
+   "pv": 6,
+   "pf": 17,
+   "mixed": 0,
+   "Total": 23,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Goalpara",
+   "pv": 576,
+   "pf": 3154,
+   "mixed": 0,
+   "Total": 3730,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Golaghat",
+   "pv": 193,
+   "pf": 57,
+   "mixed": 0,
+   "Total": 250,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Hailakandi",
+   "pv": 23,
+   "pf": 5299,
+   "mixed": 0,
+   "Total": 5322,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Jorhat",
+   "pv": 37,
+   "pf": 49,
+   "mixed": 0,
+   "Total": 86,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Kamrup",
+   "pv": 406,
+   "pf": 3602,
+   "mixed": 0,
+   "Total": 4008,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Karbi Anglong",
+   "pv": 1452,
+   "pf": 11310,
+   "mixed": 0,
+   "Total": 12762,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Karimganj",
+   "pv": 40,
+   "pf": 252,
+   "mixed": 0,
+   "Total": 292,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Kokrajhar",
+   "pv": 935,
+   "pf": 3465,
+   "mixed": 0,
+   "Total": 4400,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Lakhimpur",
+   "pv": 1296,
+   "pf": 13,
+   "mixed": 0,
+   "Total": 1309,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Morigaon",
+   "pv": 119,
+   "pf": 187,
+   "mixed": 0,
+   "Total": 306,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Nagaon",
+   "pv": 1415,
+   "pf": 2638,
+   "mixed": 0,
+   "Total": 4053,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Nalbari",
+   "pv": 262,
+   "pf": 806,
+   "mixed": 0,
+   "Total": 1068,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "North Cachar Hills",
+   "pv": 653,
+   "pf": 1898,
+   "mixed": 0,
+   "Total": 2551,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Sivasagar",
+   "pv": 1,
+   "pf": 16,
+   "mixed": 0,
+   "Total": 17,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Sonitpur",
+   "pv": 1599,
+   "pf": 506,
+   "mixed": 0,
+   "Total": 2105,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Tinsukia",
+   "pv": 797,
+   "pf": 277,
+   "mixed": 0,
+   "Total": 1074,
+   "year": 2004,
+   "state": "Assam"
+ },
+ {
+   "District": "Imphal",
+   "pv": 20,
+   "pf": 9,
+   "mixed": 0,
+   "Total": 29,
+   "year": 2004,
+   "state": "Manipur"
+ },
+ {
+   "District": "Jiribam",
+   "pv": 28,
+   "pf": 45,
+   "mixed": 0,
+   "Total": 73,
+   "year": 2004,
+   "state": "Manipur"
+ },
+ {
+   "District": "Thoubal",
+   "pv": 88,
+   "pf": 12,
+   "mixed": 0,
+   "Total": 100,
+   "year": 2004,
+   "state": "Manipur"
+ },
+ {
+   "District": "Bishnupur",
+   "pv": 6,
+   "pf": 1,
+   "mixed": 0,
+   "Total": 7,
+   "year": 2004,
+   "state": "Manipur"
+ },
+ {
+   "District": "Ukhurul",
+   "pv": 215,
+   "pf": 307,
+   "mixed": 0,
+   "Total": 522,
+   "year": 2004,
+   "state": "Manipur"
+ },
+ {
+   "District": "Churachandpur",
+   "pv": 49,
+   "pf": 100,
+   "mixed": 0,
+   "Total": 149,
+   "year": 2004,
+   "state": "Manipur"
+ },
+ {
+   "District": "Chandel",
+   "pv": 146,
+   "pf": 107,
+   "mixed": 0,
+   "Total": 253,
+   "year": 2004,
+   "state": "Manipur"
+ },
+ {
+   "District": "Senapati",
+   "pv": 73,
+   "pf": 9,
+   "mixed": 0,
+   "Total": 82,
+   "year": 2004,
+   "state": "Manipur"
+ },
+ {
+   "District": "Kangpoki",
+   "pv": 102,
+   "pf": 23,
+   "mixed": 0,
+   "Total": 125,
+   "year": 2004,
+   "state": "Manipur"
+ },
+ {
+   "District": "Tamenglong",
+   "pv": 1238,
+   "pf": 158,
+   "mixed": 0,
+   "Total": 1396,
+   "year": 2004,
+   "state": "Manipur"
+ },
+ {
+   "District": "Khasi Hills",
+   "pv": 384,
+   "pf": 1843,
+   "mixed": 0,
+   "Total": 2227,
+   "year": 2004,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "West Khasi Hills",
+   "pv": 33,
+   "pf": 126,
+   "mixed": 0,
+   "Total": 159,
+   "year": 2004,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "Jaintia Hills",
+   "pv": 2028,
+   "pf": 188,
+   "mixed": 0,
+   "Total": 2216,
+   "year": 2004,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "West Garo Hills",
+   "pv": 79,
+   "pf": 10051,
+   "mixed": 0,
+   "Total": 10130,
+   "year": 2004,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "East Garo Hills",
+   "pv": 42,
+   "pf": 3306,
+   "mixed": 0,
+   "Total": 3348,
+   "year": 2004,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "East Sikkim",
+   "pv": 98,
+   "pf": 26,
+   "mixed": 2,
+   "Total": 126,
+   "year": 2004,
+   "state": "Sikkim"
+ },
+ {
+   "District": "West Sikkim",
+   "pv": 0,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 0,
+   "year": 2004,
+   "state": "Sikkim"
+ },
+ {
+   "District": "North Sikkim",
+   "pv": 0,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 0,
+   "year": 2004,
+   "state": "Sikkim"
+ },
+ {
+   "District": "South Sikkim",
+   "pv": 29,
+   "pf": 5,
+   "mixed": 0,
+   "Total": 34,
+   "year": 2004,
+   "state": "Sikkim"
+ },
+ {
+   "District": "West Tripura",
+   "pv": 469,
+   "pf": 1981,
+   "mixed": 0,
+   "Total": 2450,
+   "year": 2004,
+   "state": "Tripura"
+ },
+ {
+   "District": "South Tripura",
+   "pv": 1083,
+   "pf": 8819,
+   "mixed": 28,
+   "Total": 9930,
+   "year": 2004,
+   "state": "Tripura"
+ },
+ {
+   "District": "North Tripura",
+   "pv": 135,
+   "pf": 2571,
+   "mixed": 0,
+   "Total": 2706,
+   "year": 2004,
+   "state": "Tripura"
+ },
+ {
+   "District": "Dhalai",
+   "pv": 584,
+   "pf": 1783,
+   "mixed": 0,
+   "Total": 2367,
+   "year": 2004,
+   "state": "Tripura"
+ },
+ {
+   "District": "Tirap",
+   "pv": 1284,
+   "pf": 41,
+   "mixed": 36,
+   "Total": 1361,
+   "year": 2004,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Changlang",
+   "pv": 3004,
+   "pf": 1619,
+   "mixed": 64,
+   "Total": 4687,
+   "year": 2004,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Lohit",
+   "pv": 3004,
+   "pf": 938,
+   "mixed": 32,
+   "Total": 3974,
+   "year": 2004,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Dibang Valley",
+   "pv": 2299,
+   "pf": 166,
+   "mixed": 0,
+   "Total": 2465,
+   "year": 2004,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "West Siang",
+   "pv": 2962,
+   "pf": 1738,
+   "mixed": 0,
+   "Total": 4700,
+   "year": 2004,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "East Siang",
+   "pv": 1745,
+   "pf": 1566,
+   "mixed": 0,
+   "Total": 3311,
+   "year": 2004,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Upper Subansiri",
+   "pv": 158,
+   "pf": 1,
+   "mixed": 0,
+   "Total": 159,
+   "year": 2004,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Lower Subansiri",
+   "pv": 144,
+   "pf": 12,
+   "mixed": 3,
+   "Total": 159,
+   "year": 2004,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Papum Pare",
+   "pv": 922,
+   "pf": 181,
+   "mixed": 5,
+   "Total": 1108,
+   "year": 2004,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "East Kameng",
+   "pv": 99,
+   "pf": 6,
+   "mixed": 0,
+   "Total": 105,
+   "year": 2004,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "West Kameng",
+   "pv": 56,
+   "pf": 4,
+   "mixed": 0,
+   "Total": 60,
+   "year": 2004,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Upper Siang",
+   "pv": 609,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 609,
+   "year": 2004,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Kohima",
+   "pv": 119,
+   "pf": 1,
+   "mixed": 0,
+   "Total": 120,
+   "year": 2004,
+   "state": "Nagaland"
+ },
+ {
+   "District": "phek",
+   "pv": 273,
+   "pf": 2,
+   "mixed": 0,
+   "Total": 275,
+   "year": 2004,
+   "state": "Nagaland"
+ },
+ {
+   "District": "wokha",
+   "pv": 202,
+   "pf": 3,
+   "mixed": 0,
+   "Total": 205,
+   "year": 2004,
+   "state": "Nagaland"
+ },
+ {
+   "District": "mokokchung",
+   "pv": 771,
+   "pf": 25,
+   "mixed": 0,
+   "Total": 796,
+   "year": 2004,
+   "state": "Nagaland"
+ },
+ {
+   "District": "zunheboto",
+   "pv": 239,
+   "pf": 17,
+   "mixed": 0,
+   "Total": 256,
+   "year": 2004,
+   "state": "Nagaland"
+ },
+ {
+   "District": "mon",
+   "pv": 67,
+   "pf": 2,
+   "mixed": 0,
+   "Total": 69,
+   "year": 2004,
+   "state": "Nagaland"
+ },
+ {
+   "District": "tuensang",
+   "pv": 148,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 148,
+   "year": 2004,
+   "state": "Nagaland"
+ },
+ {
+   "District": "dimapur",
+   "pv": 108,
+   "pf": 16,
+   "mixed": 0,
+   "Total": 124,
+   "year": 2004,
+   "state": "Nagaland"
+ },
+ {
+   "District": "u.m.s. dimapur",
+   "pv": 182,
+   "pf": 61,
+   "mixed": 0,
+   "Total": 243,
+   "year": 2004,
+   "state": "Nagaland"
+ },
+ {
+   "District": "kipheri",
+   "pv": 104,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 104,
+   "year": 2004,
+   "state": "Nagaland"
+ },
+ {
+   "District": "longleng",
+   "pv": 87,
+   "pf": 1,
+   "mixed": 0,
+   "Total": 88,
+   "year": 2004,
+   "state": "Nagaland"
+ },
+ {
+   "District": "peren",
+   "pv": 58,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 58,
+   "year": 2004,
+   "state": "Nagaland"
+ },
+ {
+   "District": "aizawal west",
+   "pv": 183,
+   "pf": 672,
+   "mixed": 0,
+   "Total": 855,
+   "year": 2004,
+   "state": "Mizoram"
+ },
+ {
+   "District": "aizawal east",
+   "pv": 2,
+   "pf": 41,
+   "mixed": 0,
+   "Total": 43,
+   "year": 2004,
+   "state": "Mizoram"
+ },
+ {
+   "District": "champhai",
+   "pv": 151,
+   "pf": 1418,
+   "mixed": 0,
+   "Total": 1569,
+   "year": 2004,
+   "state": "Mizoram"
+ },
+ {
+   "District": "kolasib",
+   "pv": 530,
+   "pf": 482,
+   "mixed": 0,
+   "Total": 1012,
+   "year": 2004,
+   "state": "Mizoram"
+ },
+ {
+   "District": "mamit",
+   "pv": 140,
+   "pf": 106,
+   "mixed": 0,
+   "Total": 246,
+   "year": 2004,
+   "state": "Mizoram"
+ },
+ {
+   "District": "serchhip",
+   "pv": 125,
+   "pf": 192,
+   "mixed": 0,
+   "Total": 317,
+   "year": 2004,
+   "state": "Mizoram"
+ },
+ {
+   "District": "lunglei",
+   "pv": 1179,
+   "pf": 880,
+   "mixed": 0,
+   "Total": 2059,
+   "year": 2004,
+   "state": "Mizoram"
+ },
+ {
+   "District": "saiha",
+   "pv": 1243,
+   "pf": 183,
+   "mixed": 0,
+   "Total": 1426,
+   "year": 2004,
+   "state": "Mizoram"
+ },
+ {
+   "District": "lawngtlai",
+   "pv": 107,
+   "pf": 196,
+   "mixed": 0,
+   "Total": 303,
+   "year": 2004,
+   "state": "Mizoram"
+ },
+ {
+   "District": "Barpeta",
+   "pv": 731,
+   "pf": 1014,
+   "mixed": 0,
+   "Total": 1745,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Bongaigaon",
+   "pv": 235,
+   "pf": 2645,
+   "mixed": 0,
+   "Total": 2880,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Cachar",
+   "pv": 5,
+   "pf": 2802,
+   "mixed": 0,
+   "Total": 2807,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Darrang",
+   "pv": 8168,
+   "pf": 2182,
+   "mixed": 0,
+   "Total": 10350,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Dhemaji",
+   "pv": 835,
+   "pf": 142,
+   "mixed": 0,
+   "Total": 977,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Dhubri",
+   "pv": 69,
+   "pf": 997,
+   "mixed": 0,
+   "Total": 1066,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Dibrugarh",
+   "pv": 9,
+   "pf": 29,
+   "mixed": 0,
+   "Total": 38,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Goalpara",
+   "pv": 473,
+   "pf": 2587,
+   "mixed": 0,
+   "Total": 3060,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Golaghat",
+   "pv": 191,
+   "pf": 90,
+   "mixed": 0,
+   "Total": 281,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Hailakandi",
+   "pv": 15,
+   "pf": 4755,
+   "mixed": 0,
+   "Total": 4770,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Jorhat",
+   "pv": 44,
+   "pf": 52,
+   "mixed": 0,
+   "Total": 96,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Kamrup",
+   "pv": 819,
+   "pf": 3057,
+   "mixed": 0,
+   "Total": 3876,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Karbi Anglong",
+   "pv": 2040,
+   "pf": 11390,
+   "mixed": 0,
+   "Total": 13430,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Karimganj",
+   "pv": 27,
+   "pf": 275,
+   "mixed": 0,
+   "Total": 302,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Kokrajhar",
+   "pv": 1069,
+   "pf": 4895,
+   "mixed": 0,
+   "Total": 5964,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Lakhimpur",
+   "pv": 2063,
+   "pf": 257,
+   "mixed": 0,
+   "Total": 2320,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Morigaon",
+   "pv": 215,
+   "pf": 348,
+   "mixed": 0,
+   "Total": 563,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Nagaon",
+   "pv": 1634,
+   "pf": 2687,
+   "mixed": 0,
+   "Total": 4321,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Nalbari",
+   "pv": 439,
+   "pf": 1845,
+   "mixed": 0,
+   "Total": 2284,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "North Cachar Hills",
+   "pv": 620,
+   "pf": 1967,
+   "mixed": 0,
+   "Total": 2587,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Sivasagar",
+   "pv": 5,
+   "pf": 21,
+   "mixed": 0,
+   "Total": 26,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Sonitpur",
+   "pv": 2148,
+   "pf": 1256,
+   "mixed": 0,
+   "Total": 3404,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Tinsukia",
+   "pv": 578,
+   "pf": 160,
+   "mixed": 0,
+   "Total": 738,
+   "year": 2005,
+   "state": "Assam"
+ },
+ {
+   "District": "Imphal",
+   "pv": 97,
+   "pf": 74,
+   "mixed": 0,
+   "Total": 171,
+   "year": 2005,
+   "state": "Manipur"
+ },
+ {
+   "District": "Jiribam",
+   "pv": 35,
+   "pf": 51,
+   "mixed": 0,
+   "Total": 86,
+   "year": 2005,
+   "state": "Manipur"
+ },
+ {
+   "District": "Thoubal",
+   "pv": 77,
+   "pf": 32,
+   "mixed": 0,
+   "Total": 109,
+   "year": 2005,
+   "state": "Manipur"
+ },
+ {
+   "District": "Bishnupur",
+   "pv": 18,
+   "pf": 11,
+   "mixed": 0,
+   "Total": 29,
+   "year": 2005,
+   "state": "Manipur"
+ },
+ {
+   "District": "Ukhrul",
+   "pv": 99,
+   "pf": 123,
+   "mixed": 0,
+   "Total": 222,
+   "year": 2005,
+   "state": "Manipur"
+ },
+ {
+   "District": "Churachandpur",
+   "pv": 51,
+   "pf": 105,
+   "mixed": 0,
+   "Total": 156,
+   "year": 2005,
+   "state": "Manipur"
+ },
+ {
+   "District": "Chandel",
+   "pv": 77,
+   "pf": 63,
+   "mixed": 0,
+   "Total": 140,
+   "year": 2005,
+   "state": "Manipur"
+ },
+ {
+   "District": "Senapati",
+   "pv": 38,
+   "pf": 18,
+   "mixed": 0,
+   "Total": 56,
+   "year": 2005,
+   "state": "Manipur"
+ },
+ {
+   "District": "Kangpokpi",
+   "pv": 119,
+   "pf": 85,
+   "mixed": 0,
+   "Total": 204,
+   "year": 2005,
+   "state": "Manipur"
+ },
+ {
+   "District": "Tamenglong",
+   "pv": 592,
+   "pf": 79,
+   "mixed": 0,
+   "Total": 671,
+   "year": 2005,
+   "state": "Manipur"
+ },
+ {
+   "District": "Khasi Hills",
+   "pv": 304,
+   "pf": 2945,
+   "mixed": 0,
+   "Total": 3249,
+   "year": 2005,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "West Khasi Hills",
+   "pv": 64,
+   "pf": 239,
+   "mixed": 0,
+   "Total": 303,
+   "year": 2005,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "Jaintia Hills",
+   "pv": 1587,
+   "pf": 457,
+   "mixed": 0,
+   "Total": 2044,
+   "year": 2005,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "West Garo Hills",
+   "pv": 29,
+   "pf": 9492,
+   "mixed": 0,
+   "Total": 9521,
+   "year": 2005,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "East Garo Hills",
+   "pv": 74,
+   "pf": 1625,
+   "mixed": 0,
+   "Total": 1699,
+   "year": 2005,
+   "state": "Meghalaya"
+ },
+ {
+   "District": "East Sikkim",
+   "pv": 33,
+   "pf": 22,
+   "mixed": 0,
+   "Total": 55,
+   "year": 2005,
+   "state": "Sikkim"
+ },
+ {
+   "District": "West Sikkim",
+   "pv": 0,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 0,
+   "year": 2005,
+   "state": "Sikkim"
+ },
+ {
+   "District": "North Sikkim",
+   "pv": 0,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 0,
+   "year": 2005,
+   "state": "Sikkim"
+ },
+ {
+   "District": "South Sikkim",
+   "pv": 5,
+   "pf": 9,
+   "mixed": 0,
+   "Total": 14,
+   "year": 2005,
+   "state": "Sikkim"
+ },
+ {
+   "District": "West Tripura",
+   "pv": 420,
+   "pf": 1450,
+   "mixed": 0,
+   "Total": 1870,
+   "year": 2005,
+   "state": "Tripura"
+ },
+ {
+   "District": "South Tripura",
+   "pv": 1372,
+   "pf": 9504,
+   "mixed": 0,
+   "Total": 10876,
+   "year": 2005,
+   "state": "Tripura"
+ },
+ {
+   "District": "North Tripura",
+   "pv": 87,
+   "pf": 1415,
+   "mixed": 0,
+   "Total": 1502,
+   "year": 2005,
+   "state": "Tripura"
+ },
+ {
+   "District": "Dhalai",
+   "pv": 1868,
+   "pf": 1892,
+   "mixed": 0,
+   "Total": 3760,
+   "year": 2005,
+   "state": "Tripura"
+ },
+ {
+   "District": "Tirap",
+   "pv": 1437,
+   "pf": 38,
+   "mixed": 83,
+   "Total": 1558,
+   "year": 2005,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Changlang",
+   "pv": 1588,
+   "pf": 986,
+   "mixed": 26,
+   "Total": 2600,
+   "year": 2005,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Lohit",
+   "pv": 2452,
+   "pf": 1811,
+   "mixed": 64,
+   "Total": 4327,
+   "year": 2005,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Dibang Valley",
+   "pv": 1805,
+   "pf": 130,
+   "mixed": 3,
+   "Total": 1938,
+   "year": 2005,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "West Siang",
+   "pv": 1106,
+   "pf": 1217,
+   "mixed": 0,
+   "Total": 2323,
+   "year": 2005,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "East Siang",
+   "pv": 476,
+   "pf": 371,
+   "mixed": 0,
+   "Total": 847,
+   "year": 2005,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Upper Subansiri",
+   "pv": 845,
+   "pf": 75,
+   "mixed": 0,
+   "Total": 920,
+   "year": 2005,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Lower Subansiri",
+   "pv": 119,
+   "pf": 3,
+   "mixed": 7,
+   "Total": 129,
+   "year": 2005,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Papum Pare",
+   "pv": 3665,
+   "pf": 972,
+   "mixed": 48,
+   "Total": 4685,
+   "year": 2005,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "East Kameng",
+   "pv": 980,
+   "pf": 449,
+   "mixed": 310,
+   "Total": 1739,
+   "year": 2005,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "West Kameng",
+   "pv": 140,
+   "pf": 57,
+   "mixed": 1,
+   "Total": 198,
+   "year": 2005,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "Upper Siang",
+   "pv": 499,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 499,
+   "year": 2005,
+   "state": "Arunachal Pradesh"
+ },
+ {
+   "District": "kohima",
+   "pv": 230,
+   "pf": 2,
+   "mixed": 0,
+   "Total": 232,
+   "year": 2005,
+   "state": "Nagaland"
+ },
+ {
+   "District": "phek",
+   "pv": 404,
+   "pf": 1,
+   "mixed": 0,
+   "Total": 405,
+   "year": 2005,
+   "state": "Nagaland"
+ },
+ {
+   "District": "wokha",
+   "pv": 301,
+   "pf": 12,
+   "mixed": 0,
+   "Total": 313,
+   "year": 2005,
+   "state": "Nagaland"
+ },
+ {
+   "District": "mokokchung",
+   "pv": 1036,
+   "pf": 6,
+   "mixed": 0,
+   "Total": 1042,
+   "year": 2005,
+   "state": "Nagaland"
+ },
+ {
+   "District": "zunheboto",
+   "pv": 133,
+   "pf": 7,
+   "mixed": 0,
+   "Total": 140,
+   "year": 2005,
+   "state": "Nagaland"
+ },
+ {
+   "District": "mon",
+   "pv": 59,
+   "pf": 6,
+   "mixed": 0,
+   "Total": 65,
+   "year": 2005,
+   "state": "Nagaland"
+ },
+ {
+   "District": "tuensang",
+   "pv": 123,
+   "pf": 3,
+   "mixed": 0,
+   "Total": 126,
+   "year": 2005,
+   "state": "Nagaland"
+ },
+ {
+   "District": "dimapur",
+   "pv": 82,
+   "pf": 13,
+   "mixed": 0,
+   "Total": 95,
+   "year": 2005,
+   "state": "Nagaland"
+ },
+ {
+   "District": "u.m.s. dimapur",
+   "pv": 160,
+   "pf": 36,
+   "mixed": 0,
+   "Total": 196,
+   "year": 2005,
+   "state": "Nagaland"
+ },
+ {
+   "District": "kipheri",
+   "pv": 273,
+   "pf": 3,
+   "mixed": 0,
+   "Total": 276,
+   "year": 2005,
+   "state": "Nagaland"
+ },
+ {
+   "District": "longleng",
+   "pv": 86,
+   "pf": 0,
+   "mixed": 0,
+   "Total": 86,
+   "year": 2005,
+   "state": "Nagaland"
+ },
+ {
+   "District": "peren",
+   "pv": 9,
+   "pf": 2,
+   "mixed": 0,
+   "Total": 11,
+   "year": 2005,
+   "state": "Nagaland"
+ },
+ {
+   "District": "aizawal west",
+   "pv": 111,
+   "pf": 559,
+   "mixed": 0,
+   "Total": 670,
+   "year": 2005,
+   "state": "Mizoram"
+ },
+ {
+   "District": "aizawal east",
+   "pv": 4,
+   "pf": 75,
+   "mixed": 0,
+   "Total": 79,
+   "year": 2005,
+   "state": "Mizoram"
+ },
+ {
+   "District": "champhai",
+   "pv": 100,
+   "pf": 114,
+   "mixed": 0,
+   "Total": 214,
+   "year": 2005,
+   "state": "Mizoram"
+ },
+ {
+   "District": "kolasib",
+   "pv": 394,
+   "pf": 2015,
+   "mixed": 0,
+   "Total": 2409,
+   "year": 2005,
+   "state": "Mizoram"
+ },
+ {
+   "District": "mamit",
+   "pv": 574,
+   "pf": 1005,
+   "mixed": 0,
+   "Total": 1579,
+   "year": 2005,
+   "state": "Mizoram"
+ },
+ {
+   "District": "serchhip",
+   "pv": 208,
+   "pf": 244,
+   "mixed": 0,
+   "Total": 452,
+   "year": 2005,
+   "state": "Mizoram"
+ },
+ {
+   "District": "lunglei",
+   "pv": 1452,
+   "pf": 1635,
+   "mixed": 0,
+   "Total": 3087,
+   "year": 2005,
+   "state": "Mizoram"
+ },
+ {
+   "District": "saiha",
+   "pv": 1367,
+   "pf": 271,
+   "mixed": 0,
+   "Total": 1638,
+   "year": 2005,
+   "state": "Mizoram"
+ },
+ {
+   "District": "lawngtlai",
+   "pv": 237,
+   "pf": 161,
+   "mixed": 0,
+   "Total": 398,
+   "year": 2005,
+   "state": "Mizoram"
+ }
+]
