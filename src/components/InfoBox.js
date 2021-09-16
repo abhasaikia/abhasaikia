@@ -12,7 +12,7 @@ import { useState, useEffect } from "react";
 const InfoBox = () => { 
   const state = useSelector(selectMapstate);
   const info = state.overlays.filter((layers)=>layers.class!=="Lightning");
-
+  const [stats, setStats] = useState()
   const [featureInfo, setFeatureInfo] = useState({
     data: [],
     isFetching: false,
@@ -49,7 +49,29 @@ const InfoBox = () => {
   //          //setFeatureInfo({ featureInfo: featureInfo.data, isFetching: false });    
   //   }
   // };
+  const getStats = async (e) => {
+    console.log(info)
+    try { 
+      //  setFeatureInfo({ data: [], isFetching: true });
+      //  console.log("data");
+      fetch("http://localhost/php_react/Api/trial3.php?name="+e,         //console.log(info),
+        {
+          method: "GET",
+        }
+      )
+        .then((response) => response.json())
+        .then((result) => {
+          console.log(result)
+          setStats(result);
+          console.log(stats)
+        })
 
+      //setFeatureInfo({ ...featureInfo, isFetching: true });
+    } catch (exception) {
+      //console.log(exception);
+        //setFeatureInfo({ featureInfo: featureInfo.data, isFetching: false });
+    }
+  };
 
   const getInfo = async () => {
     console.log(info)
@@ -95,6 +117,7 @@ const InfoBox = () => {
     // AddAnalytics()
     console.log(state)
     getInfo();
+    getStats(featureInfo.data.Districts)
   }, [state]);
   return(
   
@@ -103,13 +126,13 @@ console.log(info),
       <React.Fragment>
         <div className="Rows">
          <div className="Total">  
-            Total<p>{featureInfo.data.total}</p> </div>  
+            Total<p>{stats!==undefined&&stats.pv[0]+stats!==undefined&&stats.pf[0]+stats!==undefined&&stats.mixed[0]}</p> </div>  
            {/* <div className = "Total">{featureInfo.data}</div>                                           ............................... */}
         </div>
         <div className="Rows">
-          <div className="Total">PV Cases<p>{featureInfo.data.pv}</p></div>
-          <div className="Total">PF Cases<p>{featureInfo.data.pf}</p></div>
-          <div className="Total">Mixed Cases<p>{featureInfo.data.mixed}</p></div>
+          <div className="Total">PV Cases<p>{stats!==undefined&&stats.pv[0]}</p></div>
+          <div className="Total">PF Cases<p>{stats!==undefined&&stats.pf[0]}</p></div>
+          <div className="Total">Mixed Cases<p>{stats!==undefined&&stats.mixed[0]}</p></div>
         </div>
           {info !== undefined &&  <Series info={info[info.length-1]} state={state} featureInfo1 ={featureInfo}/>
           
