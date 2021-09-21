@@ -5,18 +5,57 @@ import CircularProgress from "@material-ui/core/CircularProgress";
 import { useSelector } from "react-redux";
 import { selectMapstate } from "../features/maps/mapStateSlice";
 import { useState, useEffect } from "react";
+import { selectLayerDataSet } from "../features/layers/overlaylayerslice";
+
 //import Chart from "./Chart";
 // import Timeseries from "./Timeseries";
  import Series from "./Series";
 
 const InfoBox = () => { 
   const state = useSelector(selectMapstate);
+  const layerState = useSelector(selectLayerDataSet);
+
   const info = state.overlays.filter((layers)=>layers.class!=="Lightning");
   const [stats, setStats] = useState()
+  const [info1, setInfo1] = useState()
   const [featureInfo, setFeatureInfo] = useState({
     data: [],
     isFetching: false,
   });
+
+  const indexInfo ={
+   1: "Malaria_1:PV_14",
+   2: "Malaria_1:PV_15",
+   3: "Malaria_1:PV_16",
+   4: "Malaria_1:PV_17",
+   5: "Malaria_1:PV_18",
+   6: "Malaria_1:PV_data_0019",
+  };
+
+
+  useEffect(() => {
+    // AddAnalytics()
+    //console.log(layerState)
+    let layer =layerState.filter((e)=>(e.class==='Malaria' && e.show))
+    console.log(layer[0].layer)
+    
+    for (var key in indexInfo) {
+      // console.log(key);
+      console.log(indexInfo[key]);
+
+      if(indexInfo[key] === layer[0].layer.trim()) {
+        //return key;
+        console.log("tt"+key)
+        setInfo1(key)
+        console.log(info1)
+    }
+    
+  }
+  }, [layerState]);
+
+
+
+
 
   // const getInfo = async () => {
   //       console.log(info)
@@ -62,8 +101,11 @@ const InfoBox = () => {
         .then((response) => response.json())
         .then((result) => {
           console.log(result)
-          setStats(result);
-          console.log(stats)
+          console.log(indexInfo)
+          //  setIndexInfo(result)
+          //  console.log(indexInfo)
+           setStats(result);
+           console.log(stats)
         })
 
       //setFeatureInfo({ ...featureInfo, isFetching: true });
@@ -126,13 +168,13 @@ console.log(info),
       <React.Fragment>
         <div className="Rows">
          <div className="Total">  
-            Total<p>{stats!==undefined&&stats.pv[0]+stats!==undefined&&stats.pf[0]+stats!==undefined&&stats.mixed[0]}</p> </div>  
+            Total<p>{stats!==undefined&&stats.pv[info1]+stats!==undefined&&stats.pf[info1]+stats!==undefined&&stats.mixed[info1]}</p> </div>  
            {/* <div className = "Total">{featureInfo.data}</div>                                           ............................... */}
         </div>
         <div className="Rows">
-          <div className="Total">PV Cases<p>{stats!==undefined&&stats.pv[0]}</p></div>
-          <div className="Total">PF Cases<p>{stats!==undefined&&stats.pf[0]}</p></div>
-          <div className="Total">Mixed Cases<p>{stats!==undefined&&stats.mixed[0]}</p></div>
+          <div className="Total">PV Cases<p>{stats!==undefined&&stats.pv[info1]}</p></div>
+          <div className="Total">PF Cases<p>{stats!==undefined&&stats.pf[info1]}</p></div>
+          <div className="Total">Mixed Cases<p>{stats!==undefined&&stats.mixed[info1]}</p></div>
         </div>
           {info !== undefined &&  <Series info={info[info.length-1]} state={state} featureInfo1 ={featureInfo}/>
           
@@ -151,6 +193,7 @@ console.log(info),
     </InfoBoxx>
   );
 };
+  
 //export default InfoBox;
 export default InfoBox;
 
